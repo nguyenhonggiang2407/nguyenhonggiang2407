@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220" role="img" aria-label="YangHomestay">
+<defs><linearGradient id="b" x2="1" y2="1"><stop stop-color="#0c192f"/><stop offset="1" stop-color="#142c46"/></linearGradient></defs>
+<rect width="720" height="220" rx="14" fill="url(#b)"/><rect x=".5" y=".5" width="719" height="219" rx="14" fill="none" stroke="#2b4464"/>
+<circle cx="660" cy="25" r="115" fill="#f2bd7a" opacity=".055"/><circle cx="670" cy="20" r="80" fill="none" stroke="#f2bd7a" stroke-opacity=".12"/>
+<text x="29" y="39" font-family="Consolas,monospace" font-size="12" fill="#f2bd7a" letter-spacing="2">03 / TRAVEL</text>
+<text x="28" y="99" font-family="Segoe UI,Arial,sans-serif" font-size="37" font-weight="700" fill="#f4f8ff" letter-spacing="-.6">YangHomestay</text>
+<text x="30" y="137" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#a5b9d3">Discover and book a stay in Hanoi</text>
+<rect x="30" y="171" width="56" height="3" rx="1.5" fill="#f2bd7a"/>
+<g transform="translate(605 70)" fill="none" stroke="#f2bd7a" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 36L40 12l28 24M20 32v36h40V32M33 68V46h14v22"/></g>
+</svg>
