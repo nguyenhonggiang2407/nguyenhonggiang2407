@@ -106,6 +106,8 @@ Keep a private ledger, set category budgets and export filtered transactions to 
 </tr>
 </table>
 
+[YangCareer](https://github.com/nguyenhonggiang2407/DTDD) is a CV workspace and job matching app derived from [TalentBridge](https://github.com/Trinhvhao/TalentBridge) (MIT), with a new interface, private sessions and API/browser regression tests.
+
 Also building [YangLocal](https://github.com/nguyenhonggiang2407/YangLocal), a WordPress theme and plugin for discovering places in Hanoi. [View the demo ↗](https://nguyenhonggiangcute.helioho.st/)
 
 <img src="assets/divider.svg" width="100%" alt="" />
