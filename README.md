@@ -110,6 +110,18 @@ Keep a private ledger, set category budgets and export filtered transactions to 
 
 [YangDocs](https://github.com/nguyenhonggiang2407/DTDD/tree/yangdocs-preview) is a document library with Vietnamese keyword search, page citations, favorites and Markdown export. This independent project currently lives on the `yangdocs-preview` branch; its new FastAPI/SQLite runtime is inspired by a credited [MIT RAG example](https://github.com/nguyenhonggiang2407/DTDD/blob/yangdocs-preview/NOTICE.md).
 
+### YangLab
+
+Three apps in a shared Node.js/SQLite workspace, with private browser sessions, version history and conflict checks. The source currently lives on the `yanglab` branch of DTDD.
+
+| App | Workflow |
+|---|---|
+| [YangMinutes](https://github.com/nguyenhonggiang2407/DTDD/tree/yanglab/apps/yang-minutes) | Meeting notes, assigned actions, deadlines and Markdown/ICS exports. |
+| [YangLaunch](https://github.com/nguyenhonggiang2407/DTDD/tree/yanglab/apps/yang-launch) | Content planning, review stages, calendar filters and CSV export. |
+| [YangSpec](https://github.com/nguyenhonggiang2407/DTDD/tree/yanglab/apps/yang-spec) | Endpoint design, JSON examples and OpenAPI 3.1 export. |
+
+[Setup and screenshots](https://github.com/nguyenhonggiang2407/DTDD/tree/yanglab) · [Passing checks](https://github.com/nguyenhonggiang2407/DTDD/actions/runs/41475399134) · [MIT sources and adaptations](https://github.com/nguyenhonggiang2407/DTDD/blob/yanglab/NOTICE.md)
+
 Also building [YangLocal](https://github.com/nguyenhonggiang2407/YangLocal), a WordPress theme and plugin for discovering places in Hanoi. [View the demo ↗](https://nguyenhonggiangcute.helioho.st/)
 
 <img src="assets/divider.svg" width="100%" alt="" />
