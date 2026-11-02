@@ -108,6 +108,8 @@ Keep a private ledger, set category budgets and export filtered transactions to 
 
 [YangCareer](https://github.com/nguyenhonggiang2407/DTDD) is a CV workspace and job matching app derived from [TalentBridge](https://github.com/Trinhvhao/TalentBridge) (MIT), with a new interface, private sessions and API/browser regression tests.
 
+[YangDocs](https://github.com/nguyenhonggiang2407/DTDD/tree/yangdocs-preview) is a document library with Vietnamese keyword search, page citations, favorites and Markdown export. This independent project currently lives on the `yangdocs-preview` branch; its new FastAPI/SQLite runtime is inspired by a credited [MIT RAG example](https://github.com/nguyenhonggiang2407/DTDD/blob/yangdocs-preview/NOTICE.md).
+
 Also building [YangLocal](https://github.com/nguyenhonggiang2407/YangLocal), a WordPress theme and plugin for discovering places in Hanoi. [View the demo ↗](https://nguyenhonggiangcute.helioho.st/)
 
 <img src="assets/divider.svg" width="100%" alt="" />
