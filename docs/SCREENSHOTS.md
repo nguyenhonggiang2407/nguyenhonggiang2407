@@ -1,0 +1,14 @@
+# Screenshot provenance
+
+The profile displays actual interfaces, not decorative project cards or generated mockups.
+
+| Project | Evidence |
+| --- | --- |
+| RunwayStudio | Existing `docs/screenshots/home-desktop-1440.png` in the project; Java demo UI. The repository documents unresolved rights for inherited media separately. |
+| YangRent | `docs/screenshots/home-photos-desktop.webp`; built React frontend with explicitly fictional API fixtures. This is not proof of a working deployed backend. |
+| CampusDesk | Existing `docs/screenshots/desktop.jpg`; student dashboard with demonstration data. |
+| YangHomestay | `assets/screenshots/yanghomestay-desktop.jpg` and `yanghomestay-mobile.jpg`; captured from `https://yanghomestay.helioho.st/customer/` on 3 November 2026 at 1440×1000 and 390×844. No failed HTTP resource responses or horizontal overflow were observed. Only the public homepage was inspected. |
+| YangLingo | Existing `docs/images/practice.png` in the project. |
+| ApplyFlow | Existing `docs/screenshots/desktop.jpg` in the project. |
+
+Screenshots are interface evidence with demo content. They do not establish property ownership, photo licensing, production security, customer activity or uptime. Project media notices remain authoritative for the underlying assets.

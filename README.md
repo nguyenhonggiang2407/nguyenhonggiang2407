@@ -1,199 +1,94 @@
 <p align="center">
-  <img src="assets/typing.svg" width="760" alt="Hi there, I'm Giang — Backend and Full-stack" />
+  <img src="assets/banner.svg" width="100%" alt="Nguyễn Hồng Giang — Backend & Full-stack Developer. Hanoi, Vietnam · Open to Internships." />
 </p>
 
-<p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Nguyen Hong Giang — Backend and Full-stack, open to internships in Hanoi" />
-</p>
+I'm **Nguyễn Hồng Giang**, an IT student in Hanoi building practical web applications. My focus is Java, Spring Boot, APIs and databases. I also work with React, Node.js, FastAPI and PHP where a project calls for them.
 
-<p align="center">
-  <a href="https://github.com/nguyenhonggiang2407?tab=repositories"><img src="https://img.shields.io/badge/PROJECTS-Explore_my_work-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Explore my repositories" /></a>
-  <a href="https://yanghomestay.helioho.st/"><img src="https://img.shields.io/badge/LIVE_DEMO-YangHomestay-0891B2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="YangHomestay live demo" /></a>
-  <a href="https://yangcute.helioho.st/"><img src="https://img.shields.io/badge/LIVE_DEMO-YangLingo-0F766E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="YangLingo live demo" /></a>
-</p>
+I'm looking for a **part-time Backend / Full-stack internship in Hanoi**, with mentorship and an opportunity to grow with the team.
 
-<img src="assets/divider.svg" width="100%" alt="" />
+## Tools used in my projects
 
-<img align="right" src="assets/octocat.gif" width="190" alt="Animated coding Octocat" />
+| Area | Technologies with source examples below |
+| --- | --- |
+| Backend | Java 17, Spring Boot, REST APIs, Node.js / Express, Python / FastAPI, PHP |
+| Frontend | React, TypeScript, JavaScript, HTML, CSS |
+| Data | MySQL, PostgreSQL, SQLite, H2 for local Java demos |
+| Development | Git, GitHub Actions, Maven, Docker |
 
-### Building web apps for everyday problems.
+## Featured projects
 
-I'm **Nguyễn Hồng Giang**, an IT student in Hanoi. I work on web applications for housing, campus support, learning and student life.
+Screenshots show the actual project interfaces with demonstration data. They do not represent customer activity. Open each repository for setup, test commands, limitations and credits.
 
-- **Focus:** Backend & Full-stack development.
-- **Currently learning:** Java and Spring Boot.
-- **Looking for:** a part-time internship in Hanoi, with a team I can learn from.
-- **I care about:** clear workflows, access control and useful interfaces.
+### [RunwayStudio](https://github.com/nguyenhonggiang2407/RunwayStudio)
 
-<br clear="both" />
+[![RunwayStudio fashion storefront on desktop](https://raw.githubusercontent.com/nguyenhonggiang2407/RunwayStudio/main/docs/screenshots/home-desktop-1440.png)](https://github.com/nguyenhonggiang2407/RunwayStudio)
 
-### Things I build with
+A Java fashion storefront with Outfit Studio, Shop The Scene, a private wardrobe and COD checkout.
 
-**Frontend**
+**Java 17 · Spring Boot · JPA · H2 / MySQL · Docker** · Transactional checkout, stock locking and per-account idempotency.
 
-<img src="assets/frontend.svg" height="48" alt="React, TypeScript, JavaScript, HTML, CSS and Vite" />
+[Source & setup](https://github.com/nguyenhonggiang2407/RunwayStudio) · [Demo](https://runwaystudio-portfolio-demo.onrender.com)
 
-**Backend**
+### [YangRent](https://github.com/nguyenhonggiang2407/YangRent)
 
-<img src="assets/backend.svg" height="48" alt="Node.js, Express, Python, FastAPI and PHP" />
+[![YangRent built frontend with fictional API fixtures](https://raw.githubusercontent.com/nguyenhonggiang2407/YangRent/main/docs/screenshots/home-photos-desktop.webp)](https://github.com/nguyenhonggiang2407/YangRent)
 
-**Data & tools**
+A rental housing app for room discovery, booking requests, contracts, invoices and maintenance.
 
-<img src="assets/data-tools.svg" height="48" alt="PostgreSQL, MySQL, SQLite, Git and GitHub" />
+**React · FastAPI · SQLAlchemy · PostgreSQL** · Role checks and record ownership in the backend. The pictured frontend uses fictional API fixtures; a current full-stack demo is not yet verified.
 
-**Learning**
+[Source & setup](https://github.com/nguyenhonggiang2407/YangRent)
 
-<img src="assets/learning.svg" height="48" alt="Currently learning Java and Spring Boot" />
+### [CampusDesk](https://github.com/nguyenhonggiang2407/CampusDesk)
 
-<img src="assets/divider.svg" width="100%" alt="" />
+[![CampusDesk student request dashboard](https://raw.githubusercontent.com/nguyenhonggiang2407/CampusDesk/main/docs/screenshots/desktop.jpg)](https://github.com/nguyenhonggiang2407/CampusDesk)
 
-### Selected projects
+A campus support desk where students submit requests and staff manage assignments, replies and internal notes.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/nguyenhonggiang2407/YangRent"><img src="assets/project-yangrent.svg" width="100%" alt="YangRent — rental housing platform" /></a>
-Find rooms, send booking requests and manage rental contracts, bills and maintenance.
-<br /><br />
-<sub><b>React · FastAPI · PostgreSQL</b></sub>
-<br /><br />
-<a href="https://github.com/nguyenhonggiang2407/YangRent">Source code ↗</a>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/nguyenhonggiang2407/CampusDesk"><img src="assets/project-campusdesk.svg" width="100%" alt="CampusDesk — campus support desk" /></a>
-Student and staff workflows, ticket assignments, private notes and conflict detection.
-<br /><br />
-<sub><b>React · TypeScript · Express · SQLite</b></sub>
-<br /><br />
-<a href="https://github.com/nguyenhonggiang2407/CampusDesk">Source code ↗</a> · <a href="https://giang-campusdesk.onrender.com">Live demo ↗</a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/nguyenhonggiang2407/YangHomestay"><img src="assets/project-yanghomestay.svg" width="100%" alt="YangHomestay — Hanoi homestay booking" /></a>
-Explore Hanoi homestays, check availability and send booking requests with server-side pricing.
-<br /><br />
-<sub><b>PHP · JavaScript · Supabase PostgreSQL</b></sub>
-<br /><br />
-<a href="https://github.com/nguyenhonggiang2407/YangHomestay">Source code ↗</a> · <a href="https://yanghomestay.helioho.st/">Live demo ↗</a>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/nguyenhonggiang2407/ApplyFlow"><img src="assets/project-applyflow.svg" width="100%" alt="ApplyFlow — internship application tracker" /></a>
-Track internship applications, move them through a status pipeline and plan follow-up tasks.
-<br /><br />
-<sub><b>React · TypeScript · Express · SQLite</b></sub>
-<br /><br />
-<a href="https://github.com/nguyenhonggiang2407/ApplyFlow">Source code ↗</a> · <a href="https://giang-applyflow.onrender.com">Live demo ↗</a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/nguyenhonggiang2407/YangLingo"><img src="assets/project-yanglingo.svg" width="100%" alt="YangLingo — English learning workspace" /></a>
-Vocabulary books, spaced review and short practice sessions with progress saved per account.
-<br /><br />
-<sub><b>PHP · MySQL · JavaScript</b></sub>
-<br /><br />
-<a href="https://github.com/nguyenhonggiang2407/YangLingo">Source code ↗</a> · <a href="https://yangcute.helioho.st/">Live demo ↗</a>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/nguyenhonggiang2407/PocketLedger"><img src="assets/project-pocketledger.svg" width="100%" alt="PocketLedger — personal budgeting workspace" /></a>
-Keep a private ledger, set category budgets and export filtered transactions to CSV.
-<br /><br />
-<sub><b>React · TypeScript · Express · SQLite</b></sub>
-<br /><br />
-<a href="https://github.com/nguyenhonggiang2407/PocketLedger">Source code ↗</a> · <a href="https://giang-pocketledger.onrender.com">Live demo ↗</a>
-</td>
-</tr>
-</table>
+**React · TypeScript · Express · SQLite** · Server-side role checks and version-based conflict detection.
 
-[YangCareer](https://github.com/nguyenhonggiang2407/DTDD) is a CV workspace and job matching app derived from [TalentBridge](https://github.com/Trinhvhao/TalentBridge) (MIT), with a new interface, private sessions and API/browser regression tests. [Live demo ↗](https://giang-yangcareer.onrender.com/app/)
+[Source & setup](https://github.com/nguyenhonggiang2407/CampusDesk) · [Demo](https://giang-campusdesk.onrender.com)
 
-The ApplyFlow, CampusDesk, PocketLedger and YangCareer demos run on Render Free. They may take time to wake and their temporary SQLite data can reset; use fictional details only.
+### [YangHomestay](https://github.com/nguyenhonggiang2407/YangHomestay)
 
-[YangDocs](https://github.com/nguyenhonggiang2407/DTDD/tree/yangdocs-preview) is a document library with Vietnamese keyword search, page citations, favorites and Markdown export. This independent project currently lives on the `yangdocs-preview` branch; its new FastAPI/SQLite runtime is inspired by a credited [MIT RAG example](https://github.com/nguyenhonggiang2407/DTDD/blob/yangdocs-preview/NOTICE.md).
+[![YangHomestay booking website captured from the live homepage](assets/screenshots/yanghomestay-desktop.jpg)](https://github.com/nguyenhonggiang2407/YangHomestay)
 
-### YangLab
+A Hanoi homestay booking project with search, availability, booking management and server-side pricing.
 
-Three apps in a shared Node.js/SQLite workspace, with private browser sessions, version history and conflict checks. The source currently lives on the `yanglab` branch of DTDD.
+**PHP · JavaScript · Supabase PostgreSQL** · Backend authorization and price calculation; see the repository for deployment requirements.
 
-| App | Workflow |
-|---|---|
-| [YangMinutes](https://github.com/nguyenhonggiang2407/DTDD/tree/yanglab/apps/yang-minutes) | Meeting notes, assigned actions, deadlines and Markdown/ICS exports. |
-| [YangLaunch](https://github.com/nguyenhonggiang2407/DTDD/tree/yanglab/apps/yang-launch) | Content planning, review stages, calendar filters and CSV export. |
-| [YangSpec](https://github.com/nguyenhonggiang2407/DTDD/tree/yanglab/apps/yang-spec) | Endpoint design, JSON examples and OpenAPI 3.1 export. |
+[Source & setup](https://github.com/nguyenhonggiang2407/YangHomestay) · [Demo](https://yanghomestay.helioho.st/)
 
-[Setup and screenshots](https://github.com/nguyenhonggiang2407/DTDD/tree/yanglab) · [Passing checks](https://github.com/nguyenhonggiang2407/DTDD/actions/runs/41475399134) · [MIT sources and adaptations](https://github.com/nguyenhonggiang2407/DTDD/blob/yanglab/NOTICE.md)
+### [YangLingo](https://github.com/nguyenhonggiang2407/YangLingo)
 
-### Java / Spring Boot
+[![YangLingo English practice interface](https://raw.githubusercontent.com/nguyenhonggiang2407/YangLingo/main/docs/images/practice.png)](https://github.com/nguyenhonggiang2407/YangLingo)
 
-[**Runway Studio**](https://github.com/nguyenhonggiang2407/RunwayStudio) is a fashion storefront with Outfit Studio, Shop The Scene, a private wardrobe and COD checkout.
+An English learning workspace with vocabulary books, spaced review and short practice sessions.
 
-**Java 17 · Spring Boot · JPA · H2/MySQL · Docker**
+**PHP · MySQL · JavaScript** · Progress and review schedules are scoped to each account.
 
-[Source and setup](https://github.com/nguyenhonggiang2407/RunwayStudio) · [Live demo](https://runwaystudio-portfolio-demo.onrender.com)
+[Source & setup](https://github.com/nguyenhonggiang2407/YangLingo) · [Demo](https://yangcute.helioho.st/)
 
-The Render Free demo may take time to wake. H2 demo data resets on restart; register a fresh customer account and use fictional details only.
+### [ApplyFlow](https://github.com/nguyenhonggiang2407/ApplyFlow)
 
-[**YangSlots**](https://github.com/nguyenhonggiang2407/DTDD/tree/yangslots) is a resource reservation app with five-minute holds, atomic capacity checks, request idempotency, confirmation/cancellation and CSV/ICS export.
+[![ApplyFlow application tracking dashboard](https://raw.githubusercontent.com/nguyenhonggiang2407/ApplyFlow/main/docs/screenshots/desktop.jpg)](https://github.com/nguyenhonggiang2407/ApplyFlow)
 
-**Java 17 · Spring Boot 4.1.2 · Spring JDBC · H2 · Docker**
+An internship application tracker with a status pipeline, follow-up tasks and calendar export.
 
-[Setup and screenshots](https://github.com/nguyenhonggiang2407/DTDD/tree/yangslots) · [Passing checks](https://github.com/nguyenhonggiang2407/DTDD/actions/runs/41565934350) · [MIT reference and implementation](https://github.com/nguyenhonggiang2407/DTDD/blob/yangslots/NOTICE.md)
+**React · TypeScript · Express · SQLite** · Account-scoped data and version checks for competing edits.
 
-<details>
-<summary>YangSlots interface preview</summary>
+[Source & setup](https://github.com/nguyenhonggiang2407/ApplyFlow) · [Demo](https://giang-applyflow.onrender.com)
 
-<a href="https://github.com/nguyenhonggiang2407/DTDD/tree/yangslots"><img src="https://raw.githubusercontent.com/nguyenhonggiang2407/DTDD/yangslots/docs/screenshots/desktop.png" width="100%" alt="YangSlots resource calendar and confirmed reservations" /></a>
+Demo landing pages and available public health/catalog endpoints were checked on **3 November 2026**. This is a point-in-time check, not an uptime guarantee or a complete checkout audit. Render Free demos may wake slowly, and temporary H2/SQLite data can reset. Use fictional details.
 
-</details>
+[More projects, Java branch workspaces and source credits](docs/PROJECTS.md)
 
-### Data & automation
+## Currently learning and improving
 
-Three independent Node.js 24 / SQLite apps, currently on separate branches of DTDD.
+- Deepening my understanding of Java and Spring Boot.
+- Designing database constraints, API validation and predictable error handling.
+- Testing important workflows and making projects easier to run.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/nguyenhonggiang2407/DTDD/tree/yangqueue"><img src="https://raw.githubusercontent.com/nguyenhonggiang2407/DTDD/yangqueue/docs/screenshots/desktop.png" width="100%" alt="YangQueue — real job queue interface" /></a>
-<h4><a href="https://github.com/nguyenhonggiang2407/DTDD/tree/yangqueue">YangQueue</a></h4>
-Process CSV, JSON and text through a durable job queue, with idempotency, bounded retries, cancellation and result downloads.
-<br /><br />
-<sub><b>Node.js · SQLite · Worker Threads · Docker</b></sub>
-<br /><br />
-<a href="https://github.com/nguyenhonggiang2407/DTDD/tree/yangqueue">Source & setup ↗</a> · <a href="https://github.com/nguyenhonggiang2407/DTDD/actions/runs/41486140255">Passing checks ↗</a>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/nguyenhonggiang2407/DTDD/tree/yangdata"><img src="https://raw.githubusercontent.com/nguyenhonggiang2407/DTDD/yangdata/docs/screenshots/desktop.png" width="100%" alt="YangData — real CSV query and report interface" /></a>
-<h4><a href="https://github.com/nguyenhonggiang2407/DTDD/tree/yangdata">YangData</a></h4>
-Explore private CSV datasets with typed imports, parameterized SQLite queries, grouped summaries and saved reports.
-<br /><br />
-<sub><b>Node.js · SQLite · JavaScript · Docker</b></sub>
-<br /><br />
-<a href="https://github.com/nguyenhonggiang2407/DTDD/tree/yangdata">Source & setup ↗</a> · <a href="https://github.com/nguyenhonggiang2407/DTDD/actions/runs/41555977273">Passing checks ↗</a>
-</td>
-</tr>
-</table>
+## Contact
 
-[YangHooks](https://github.com/nguyenhonggiang2407/DTDD/tree/yanghooks) is a private webhook lab with HMAC signatures, delivery replay checks, one-time signing keys, key rotation and a real local HTTP sender/CLI. [Setup and interface captures](https://github.com/nguyenhonggiang2407/DTDD/tree/yanghooks) · [Passing checks](https://github.com/nguyenhonggiang2407/DTDD/actions/runs/41558541022) · [MIT reference and new implementation](https://github.com/nguyenhonggiang2407/DTDD/blob/yanghooks/NOTICE.md).
-
-New runtimes and interfaces with credited MIT reference examples. Original authors and licenses are preserved: [YangQueue provenance](https://github.com/nguyenhonggiang2407/DTDD/blob/yangqueue/NOTICE.md) · [YangData provenance](https://github.com/nguyenhonggiang2407/DTDD/blob/yangdata/NOTICE.md).
-
-Also building [YangLocal](https://github.com/nguyenhonggiang2407/YangLocal), a WordPress theme and plugin for discovering places in Hanoi. [View the demo ↗](https://nguyenhonggiangcute.helioho.st/)
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-### GitHub at a glance
-
-<img src="assets/github-activity.svg" width="100%" alt="Public projects, linked demos and primary repository languages" />
-
-<details>
-<summary>What I'm working on next</summary>
-
-- Building a stronger foundation in Java and Spring Boot.
-- Improving database design, API validation and error handling.
-- Adding useful integration tests to important workflows.
-- Making projects easier to run and review.
-
-</details>
-
-<p align="center"><sub>Hanoi, Vietnam · Open to Backend & Full-stack internships</sub></p>
+[nguyenhonggiang.profile@gmail.com](mailto:nguyenhonggiang.profile@gmail.com) · [GitHub](https://github.com/nguyenhonggiang2407)
