@@ -29,6 +29,14 @@ A Java fashion storefront with Outfit Studio, Shop The Scene, a private wardrobe
 
 [Source & setup](https://github.com/nguyenhonggiang2407/RunwayStudio) · [Demo](https://runwaystudio-portfolio-demo.onrender.com)
 
+### [FORME](https://github.com/nguyenhonggiang2407/FORME)
+
+A wardrobe and weekly outfit planner inspired by Runway, with a 12-piece demonstration wardrobe and six editorial inspiration looks. Build outfits with deterministic rules, plan the week and generate a packing list with repeated pieces merged.
+
+**Vanilla JavaScript · HTML / CSS · Browser-local persistence** · Saved outfits, calendar and packing checklist, with JSON backup and restore. Data stays in the current browser.
+
+[Source & setup](https://github.com/nguyenhonggiang2407/FORME) · [Demo](https://nguyenhonggiang2407.github.io/FORME/)
+
 ### [YangRent](https://github.com/nguyenhonggiang2407/YangRent)
 
 [![YangRent built frontend with fictional API fixtures](https://raw.githubusercontent.com/nguyenhonggiang2407/YangRent/main/docs/screenshots/home-photos-desktop.webp)](https://github.com/nguyenhonggiang2407/YangRent)
