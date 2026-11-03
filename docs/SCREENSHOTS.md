@@ -4,7 +4,7 @@ The profile displays actual interfaces, not decorative project cards or generate
 
 | Project | Evidence |
 | --- | --- |
-| RunwayStudio | Existing `docs/screenshots/home-desktop-1440.png` in the project; Java demo UI. The repository documents unresolved rights for inherited media separately. |
+| RunwayStudio | `docs/screenshots/home-desktop-1440.png` captured from the Java demo after the City Notes addition, reviewed 4 November 2026. The editorial photograph is credited to Jonnas Duarte / Pexels. The repository documents unresolved rights for inherited catalog media separately. |
 | YangRent | `docs/screenshots/home-photos-desktop.webp`; built React frontend with explicitly fictional API fixtures. This is not proof of a working deployed backend. |
 | CampusDesk | Existing `docs/screenshots/desktop.jpg`; student dashboard with demonstration data. |
 | YangHomestay | `assets/screenshots/yanghomestay-desktop.jpg` and `yanghomestay-mobile.jpg`; captured from `https://yanghomestay.helioho.st/customer/` on 3 November 2026 at 1440×1000 and 390×844. No failed HTTP resource responses or horizontal overflow were observed. Only the public homepage was inspected. |
