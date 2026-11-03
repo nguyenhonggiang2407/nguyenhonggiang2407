@@ -124,7 +124,7 @@ Three apps in a shared Node.js/SQLite workspace, with private browser sessions, 
 
 ### Data & automation
 
-Two independent Node.js 24 / SQLite apps, currently on separate branches of DTDD.
+Three independent Node.js 24 / SQLite apps, currently on separate branches of DTDD.
 
 <table>
 <tr>
@@ -148,6 +148,8 @@ Explore private CSV datasets with typed imports, parameterized SQLite queries, g
 </td>
 </tr>
 </table>
+
+[YangHooks](https://github.com/nguyenhonggiang2407/DTDD/tree/yanghooks) is a private webhook lab with HMAC signatures, delivery replay checks, one-time signing keys, key rotation and a real local HTTP sender/CLI. [Setup and interface captures](https://github.com/nguyenhonggiang2407/DTDD/tree/yanghooks) · [Passing checks](https://github.com/nguyenhonggiang2407/DTDD/actions/runs/41558541022) · [MIT reference and new implementation](https://github.com/nguyenhonggiang2407/DTDD/blob/yanghooks/NOTICE.md).
 
 New runtimes and interfaces with credited MIT reference examples. Original authors and licenses are preserved: [YangQueue provenance](https://github.com/nguyenhonggiang2407/DTDD/blob/yangqueue/NOTICE.md) · [YangData provenance](https://github.com/nguyenhonggiang2407/DTDD/blob/yangdata/NOTICE.md).
 
