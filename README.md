@@ -122,6 +122,21 @@ Three apps in a shared Node.js/SQLite workspace, with private browser sessions, 
 
 [Setup and screenshots](https://github.com/nguyenhonggiang2407/DTDD/tree/yanglab) · [Passing checks](https://github.com/nguyenhonggiang2407/DTDD/actions/runs/41475399134) · [MIT sources and adaptations](https://github.com/nguyenhonggiang2407/DTDD/blob/yanglab/NOTICE.md)
 
+### Java / Spring Boot
+
+[**YangSlots**](https://github.com/nguyenhonggiang2407/DTDD/tree/yangslots) is a resource reservation app with five-minute holds, atomic capacity checks, request idempotency, confirmation/cancellation and CSV/ICS export.
+
+**Java 17 · Spring Boot 4.1.2 · Spring JDBC · H2 · Docker**
+
+[Setup and screenshots](https://github.com/nguyenhonggiang2407/DTDD/tree/yangslots) · [Passing checks](https://github.com/nguyenhonggiang2407/DTDD/actions/runs/41565934350) · [MIT reference and implementation](https://github.com/nguyenhonggiang2407/DTDD/blob/yangslots/NOTICE.md)
+
+<details>
+<summary>YangSlots interface preview</summary>
+
+<a href="https://github.com/nguyenhonggiang2407/DTDD/tree/yangslots"><img src="https://raw.githubusercontent.com/nguyenhonggiang2407/DTDD/yangslots/docs/screenshots/desktop.png" width="100%" alt="YangSlots resource calendar and confirmed reservations" /></a>
+
+</details>
+
 ### Data & automation
 
 Three independent Node.js 24 / SQLite apps, currently on separate branches of DTDD.
