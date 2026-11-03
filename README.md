@@ -122,6 +122,35 @@ Three apps in a shared Node.js/SQLite workspace, with private browser sessions, 
 
 [Setup and screenshots](https://github.com/nguyenhonggiang2407/DTDD/tree/yanglab) · [Passing checks](https://github.com/nguyenhonggiang2407/DTDD/actions/runs/41475399134) · [MIT sources and adaptations](https://github.com/nguyenhonggiang2407/DTDD/blob/yanglab/NOTICE.md)
 
+### Data & automation
+
+Two independent Node.js 24 / SQLite apps, currently on separate branches of DTDD.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/nguyenhonggiang2407/DTDD/tree/yangqueue"><img src="https://raw.githubusercontent.com/nguyenhonggiang2407/DTDD/yangqueue/docs/screenshots/desktop.png" width="100%" alt="YangQueue — real job queue interface" /></a>
+<h4><a href="https://github.com/nguyenhonggiang2407/DTDD/tree/yangqueue">YangQueue</a></h4>
+Process CSV, JSON and text through a durable job queue, with idempotency, bounded retries, cancellation and result downloads.
+<br /><br />
+<sub><b>Node.js · SQLite · Worker Threads · Docker</b></sub>
+<br /><br />
+<a href="https://github.com/nguyenhonggiang2407/DTDD/tree/yangqueue">Source & setup ↗</a> · <a href="https://github.com/nguyenhonggiang2407/DTDD/actions/runs/41486140255">Passing checks ↗</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/nguyenhonggiang2407/DTDD/tree/yangdata"><img src="https://raw.githubusercontent.com/nguyenhonggiang2407/DTDD/yangdata/docs/screenshots/desktop.png" width="100%" alt="YangData — real CSV query and report interface" /></a>
+<h4><a href="https://github.com/nguyenhonggiang2407/DTDD/tree/yangdata">YangData</a></h4>
+Explore private CSV datasets with typed imports, parameterized SQLite queries, grouped summaries and saved reports.
+<br /><br />
+<sub><b>Node.js · SQLite · JavaScript · Docker</b></sub>
+<br /><br />
+<a href="https://github.com/nguyenhonggiang2407/DTDD/tree/yangdata">Source & setup ↗</a> · <a href="https://github.com/nguyenhonggiang2407/DTDD/actions/runs/41555977273">Passing checks ↗</a>
+</td>
+</tr>
+</table>
+
+New runtimes and interfaces with credited MIT reference examples. Original authors and licenses are preserved: [YangQueue provenance](https://github.com/nguyenhonggiang2407/DTDD/blob/yangqueue/NOTICE.md) · [YangData provenance](https://github.com/nguyenhonggiang2407/DTDD/blob/yangdata/NOTICE.md).
+
 Also building [YangLocal](https://github.com/nguyenhonggiang2407/YangLocal), a WordPress theme and plugin for discovering places in Hanoi. [View the demo ↗](https://nguyenhonggiangcute.helioho.st/)
 
 <img src="assets/divider.svg" width="100%" alt="" />
