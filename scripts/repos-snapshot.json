@@ -1,12 +1,12 @@
 {
   "owner": "nguyenhonggiang2407",
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "repositories": [
     {
       "name": "ApplyFlow",
       "language": "TypeScript",
       "homepage": null,
-      "size": 267,
+      "size": 497,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/ApplyFlow"
@@ -31,9 +31,9 @@
     },
     {
       "name": "DTDD",
-      "language": null,
+      "language": "Python",
       "homepage": null,
-      "size": 0,
+      "size": 5409,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/DTDD"
@@ -42,7 +42,7 @@
       "name": "nguyenhonggiang2407",
       "language": "JavaScript",
       "homepage": null,
-      "size": 0,
+      "size": 58,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/nguyenhonggiang2407"
@@ -51,10 +51,19 @@
       "name": "PocketLedger",
       "language": "TypeScript",
       "homepage": null,
-      "size": 255,
+      "size": 656,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/PocketLedger"
+    },
+    {
+      "name": "RunwayStudio",
+      "language": "Java",
+      "homepage": null,
+      "size": 1068,
+      "fork": false,
+      "private": false,
+      "html_url": "https://github.com/nguyenhonggiang2407/RunwayStudio"
     },
     {
       "name": "St4",
