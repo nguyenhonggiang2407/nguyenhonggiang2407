@@ -65,7 +65,7 @@ Student and staff workflows, ticket assignments, private notes and conflict dete
 <br /><br />
 <sub><b>React · TypeScript · Express · SQLite</b></sub>
 <br /><br />
-<a href="https://github.com/nguyenhonggiang2407/CampusDesk">Source code ↗</a>
+<a href="https://github.com/nguyenhonggiang2407/CampusDesk">Source code ↗</a> · <a href="https://giang-campusdesk.onrender.com">Live demo ↗</a>
 </td>
 </tr>
 <tr>
@@ -83,7 +83,7 @@ Track internship applications, move them through a status pipeline and plan foll
 <br /><br />
 <sub><b>React · TypeScript · Express · SQLite</b></sub>
 <br /><br />
-<a href="https://github.com/nguyenhonggiang2407/ApplyFlow">Source code ↗</a>
+<a href="https://github.com/nguyenhonggiang2407/ApplyFlow">Source code ↗</a> · <a href="https://giang-applyflow.onrender.com">Live demo ↗</a>
 </td>
 </tr>
 <tr>
@@ -101,12 +101,14 @@ Keep a private ledger, set category budgets and export filtered transactions to 
 <br /><br />
 <sub><b>React · TypeScript · Express · SQLite</b></sub>
 <br /><br />
-<a href="https://github.com/nguyenhonggiang2407/PocketLedger">Source code ↗</a>
+<a href="https://github.com/nguyenhonggiang2407/PocketLedger">Source code ↗</a> · <a href="https://giang-pocketledger.onrender.com">Live demo ↗</a>
 </td>
 </tr>
 </table>
 
-[YangCareer](https://github.com/nguyenhonggiang2407/DTDD) is a CV workspace and job matching app derived from [TalentBridge](https://github.com/Trinhvhao/TalentBridge) (MIT), with a new interface, private sessions and API/browser regression tests.
+[YangCareer](https://github.com/nguyenhonggiang2407/DTDD) is a CV workspace and job matching app derived from [TalentBridge](https://github.com/Trinhvhao/TalentBridge) (MIT), with a new interface, private sessions and API/browser regression tests. [Live demo ↗](https://giang-yangcareer.onrender.com/app/)
+
+The ApplyFlow, CampusDesk, PocketLedger and YangCareer demos run on Render Free. They may take time to wake and their temporary SQLite data can reset; use fictional details only.
 
 [YangDocs](https://github.com/nguyenhonggiang2407/DTDD/tree/yangdocs-preview) is a document library with Vietnamese keyword search, page citations, favorites and Markdown export. This independent project currently lives on the `yangdocs-preview` branch; its new FastAPI/SQLite runtime is inspired by a credited [MIT RAG example](https://github.com/nguyenhonggiang2407/DTDD/blob/yangdocs-preview/NOTICE.md).
 
