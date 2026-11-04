@@ -43,9 +43,9 @@ A wardrobe and weekly outfit planner inspired by Runway, with a 12-piece demonst
 
 A rental housing app for room discovery, booking requests, contracts, invoices and maintenance.
 
-**React · FastAPI · SQLAlchemy · PostgreSQL** · Role checks and record ownership in the backend. The pictured frontend uses fictional API fixtures; a current full-stack demo is not yet verified.
+**React · FastAPI · SQLAlchemy · PostgreSQL / SQLite** · Role checks and record ownership in the backend. The pictured frontend uses fictional API fixtures. The public full-stack demo runs on Render Free with six fictional room types and temporary SQLite data; registration, login and favorites were verified on 4 November 2026.
 
-[Source & setup](https://github.com/nguyenhonggiang2407/YangRent)
+[Source & setup](https://github.com/nguyenhonggiang2407/YangRent) · [Live Demo](https://yangrent-portfolio-demo.onrender.com/)
 
 ### [CampusDesk](https://github.com/nguyenhonggiang2407/CampusDesk)
 
