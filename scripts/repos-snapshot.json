@@ -1,12 +1,12 @@
 {
   "owner": "nguyenhonggiang2407",
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "repositories": [
     {
       "name": "ApplyFlow",
       "language": "TypeScript",
-      "homepage": null,
-      "size": 497,
+      "homepage": "https://giang-applyflow.onrender.com",
+      "size": 614,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/ApplyFlow"
@@ -14,8 +14,8 @@
     {
       "name": "CampusDesk",
       "language": "TypeScript",
-      "homepage": null,
-      "size": 224,
+      "homepage": "https://giang-campusdesk.onrender.com",
+      "size": 821,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/CampusDesk"
@@ -24,7 +24,7 @@
       "name": "Doanwebbangiayphp",
       "language": "PHP",
       "homepage": null,
-      "size": 3756,
+      "size": 3759,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/Doanwebbangiayphp"
@@ -32,17 +32,26 @@
     {
       "name": "DTDD",
       "language": "Python",
-      "homepage": null,
-      "size": 5409,
+      "homepage": "https://giang-yangcareer.onrender.com/app/",
+      "size": 5432,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/DTDD"
     },
     {
+      "name": "FORME",
+      "language": "JavaScript",
+      "homepage": "https://nguyenhonggiang2407.github.io/FORME/",
+      "size": 1641,
+      "fork": false,
+      "private": false,
+      "html_url": "https://github.com/nguyenhonggiang2407/FORME"
+    },
+    {
       "name": "nguyenhonggiang2407",
       "language": "JavaScript",
       "homepage": null,
-      "size": 58,
+      "size": 244,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/nguyenhonggiang2407"
@@ -50,8 +59,8 @@
     {
       "name": "PocketLedger",
       "language": "TypeScript",
-      "homepage": null,
-      "size": 656,
+      "homepage": "https://giang-pocketledger.onrender.com",
+      "size": 872,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/PocketLedger"
@@ -59,8 +68,8 @@
     {
       "name": "RunwayStudio",
       "language": "Java",
-      "homepage": null,
-      "size": 1068,
+      "homepage": "https://runwaystudio-portfolio-demo.onrender.com",
+      "size": 58095,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/RunwayStudio"
@@ -69,7 +78,7 @@
       "name": "St4",
       "language": "HTML",
       "homepage": null,
-      "size": 14,
+      "size": 430,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/St4"
@@ -78,25 +87,61 @@
       "name": "Yang",
       "language": "Java",
       "homepage": null,
-      "size": 26,
+      "size": 28,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/Yang"
     },
     {
+      "name": "YangData",
+      "language": "JavaScript",
+      "homepage": null,
+      "size": 1873,
+      "fork": false,
+      "private": false,
+      "html_url": "https://github.com/nguyenhonggiang2407/YangData"
+    },
+    {
+      "name": "YangDocs",
+      "language": "Python",
+      "homepage": null,
+      "size": 2119,
+      "fork": false,
+      "private": false,
+      "html_url": "https://github.com/nguyenhonggiang2407/YangDocs"
+    },
+    {
       "name": "YangHomestay",
       "language": "PHP",
       "homepage": "https://yanghomestay.helioho.st/",
-      "size": 21602,
+      "size": 22131,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/YangHomestay"
     },
     {
+      "name": "YangHooks",
+      "language": "JavaScript",
+      "homepage": null,
+      "size": 1963,
+      "fork": false,
+      "private": false,
+      "html_url": "https://github.com/nguyenhonggiang2407/YangHooks"
+    },
+    {
+      "name": "YangLab",
+      "language": "JavaScript",
+      "homepage": null,
+      "size": 1022,
+      "fork": false,
+      "private": false,
+      "html_url": "https://github.com/nguyenhonggiang2407/YangLab"
+    },
+    {
       "name": "YangLingo",
       "language": "PHP",
       "homepage": "https://yangcute.helioho.st/",
-      "size": 2585,
+      "size": 2705,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/YangLingo"
@@ -105,19 +150,37 @@
       "name": "YangLocal",
       "language": "PHP",
       "homepage": "https://nguyenhonggiangcute.helioho.st/",
-      "size": 35258,
+      "size": 36202,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/YangLocal"
     },
     {
+      "name": "YangQueue",
+      "language": "JavaScript",
+      "homepage": null,
+      "size": 1551,
+      "fork": false,
+      "private": false,
+      "html_url": "https://github.com/nguyenhonggiang2407/YangQueue"
+    },
+    {
       "name": "YangRent",
       "language": "JavaScript",
       "homepage": null,
-      "size": 3586,
+      "size": 4465,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/YangRent"
+    },
+    {
+      "name": "YangSlots",
+      "language": "Java",
+      "homepage": null,
+      "size": 1999,
+      "fork": false,
+      "private": false,
+      "html_url": "https://github.com/nguyenhonggiang2407/YangSlots"
     }
   ]
 }
