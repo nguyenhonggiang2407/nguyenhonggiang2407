@@ -89,7 +89,20 @@ An internship application tracker with a status pipeline, follow-up tasks and ca
 
 Demo landing pages and available public health/catalog endpoints were checked on **3 November 2026**. This is a point-in-time check, not an uptime guarantee or a complete checkout audit. Render Free demos may wake slowly, and temporary H2/SQLite data can reset. Use fictional details.
 
-[More projects, Java branch workspaces and source credits](docs/PROJECTS.md)
+## Independent backend projects
+
+These six repositories preserve the source history and credits from their original DTDD branches. Each has its own setup guide, tests and CI; public application demos are not yet verified.
+
+| Project | Backend focus |
+| --- | --- |
+| [YangSlots](https://github.com/nguyenhonggiang2407/YangSlots) | Java / Spring Boot · Transactional capacity checks, expiring holds and idempotency |
+| [YangDocs](https://github.com/nguyenhonggiang2407/YangDocs) | FastAPI / SQLite FTS5 · Private documents and page-addressable search evidence |
+| [YangQueue](https://github.com/nguyenhonggiang2407/YangQueue) | Node.js / SQLite · Worker leases, bounded retries and result downloads |
+| [YangData](https://github.com/nguyenhonggiang2407/YangData) | Node.js / SQLite · Typed CSV imports, parameterized queries and saved reports |
+| [YangHooks](https://github.com/nguyenhonggiang2407/YangHooks) | Node.js / SQLite · HMAC verification, replay checks and key rotation |
+| [YangLab](https://github.com/nguyenhonggiang2407/YangLab) | Node.js / SQLite · Meeting actions, content approval and OpenAPI contracts |
+
+[More projects, current CI and source credits](docs/PROJECTS.md)
 
 ## Currently learning and improving
 
