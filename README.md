@@ -1,126 +1,68 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Nguyễn Hồng Giang — Backend & Full-stack Developer. Hanoi, Vietnam · Open to Internships." />
+  <img src="assets/banner.svg" width="100%" alt="Nguyễn Hồng Giang — Java Backend / Full-stack Intern · Hanoi, Vietnam" />
 </p>
 
-I'm **Nguyễn Hồng Giang**, an IT student in Hanoi building practical web applications. My focus is Java, Spring Boot, APIs and databases. I also work with React, Node.js, FastAPI and PHP where a project calls for them.
+# Hi, I'm Nguyễn Hồng Giang
 
-I'm looking for a **part-time Backend / Full-stack internship in Hanoi**, with mentorship and an opportunity to grow with the team.
+I'm an IT student in **Hanoi, Vietnam**, looking for a **part-time Java Backend / Full-stack internship** with mentorship and opportunities to contribute to a team.
 
-## Tools used in my projects
+My focus is **Java, Spring Boot, REST APIs and SQL**. Start with **RunwayStudio** for a Java commerce application and **YangSlots** for reservation transactions, capacity checks and idempotency. The projects below include source, setup instructions, tests and documented limitations.
 
-| Area | Technologies with source examples below |
+[Email](mailto:nguyenhonggiang.profile@gmail.com) · [Featured projects](#featured-projects) · [More projects](docs/PROJECTS.md)
+
+## Technologies in these repositories
+
+| Focus | Technologies |
 | --- | --- |
-| Backend | Java 17, Spring Boot, REST APIs, Node.js / Express, Python / FastAPI, PHP |
-| Frontend | React, TypeScript, JavaScript, HTML, CSS |
-| Data | MySQL, PostgreSQL, SQLite, H2 for local Java demos |
-| Development | Git, GitHub Actions, Maven, Docker |
+| Java backend | Java 17, Spring Boot, Spring Data JPA, Spring JDBC, Maven |
+| Data and delivery | MySQL, PostgreSQL, SQLite, H2, Docker, GitHub Actions |
+| Full-stack experience | React, TypeScript, JavaScript, Express, FastAPI, PHP |
 
 ## Featured projects
 
-Screenshots show the actual project interfaces with demonstration data. They do not represent customer activity. Open each repository for setup, test commands, limitations and credits.
+### 1. [RunwayStudio](https://github.com/nguyenhonggiang2407/RunwayStudio) — Java commerce application
 
-### [RunwayStudio](https://github.com/nguyenhonggiang2407/RunwayStudio)
+[![RunwayStudio storefront with demonstration products](https://raw.githubusercontent.com/nguyenhonggiang2407/RunwayStudio/main/docs/screenshots/home-desktop-1440.png)](https://github.com/nguyenhonggiang2407/RunwayStudio)
 
-[![RunwayStudio fashion storefront on desktop](https://raw.githubusercontent.com/nguyenhonggiang2407/RunwayStudio/main/docs/screenshots/home-desktop-1440.png)](https://github.com/nguyenhonggiang2407/RunwayStudio)
+**Stack:** Java 17 · Spring Boot · JPA · MySQL / H2 · Docker
 
-A Java fashion storefront with Outfit Studio, Shop The Scene, a private wardrobe and COD checkout.
+A fashion storefront with outfit boards, scene discovery, a private wardrobe and COD checkout. Backend review points include transactional stock handling, pessimistic locking and per-account checkout idempotency. MySQL acceptance tests cover competing buyers, repeated checkout requests and cancellation/restocking.
 
-**Java 17 · Spring Boot · JPA · H2 / MySQL · Docker** · Transactional checkout, stock locking and per-account idempotency.
+[Source, architecture & setup](https://github.com/nguyenhonggiang2407/RunwayStudio) · [CI](https://github.com/nguyenhonggiang2407/RunwayStudio/actions/workflows/ci.yml) · [Demo](https://runwaystudio-portfolio-demo.onrender.com)
 
-[Source & setup](https://github.com/nguyenhonggiang2407/RunwayStudio) · [Demo](https://runwaystudio-portfolio-demo.onrender.com)
+The repository retains an inherited storefront baseline. [Attribution and media limitations](https://github.com/nguyenhonggiang2407/RunwayStudio/blob/main/docs/ATTRIBUTION.md) distinguish that baseline from later changes; inherited catalog image rights remain unresolved. COD is a demonstration flow, not an online payment integration.
 
-### [FORME](https://github.com/nguyenhonggiang2407/FORME)
+### 2. [YangSlots](https://github.com/nguyenhonggiang2407/YangSlots) — Java reservation backend
 
-A wardrobe and weekly outfit planner inspired by Runway, with a 12-piece demonstration wardrobe and six editorial inspiration looks. Build outfits with deterministic rules, plan the week and generate a packing list with repeated pieces merged.
+**Stack:** Java 17 · Spring Boot · Spring JDBC · H2 · Docker
 
-**Vanilla JavaScript · HTML / CSS · Browser-local persistence** · Saved outfits, calendar and packing checklist, with JSON backup and restore. Data stays in the current browser.
+A resource reservation application with expiring holds, transactional capacity checks, idempotent requests, confirmation/cancellation and CSV/ICS export. Start here to review how simultaneous requests are handled and how the tests exercise capacity limits.
 
-[Source & setup](https://github.com/nguyenhonggiang2407/FORME) · [Demo](https://nguyenhonggiang2407.github.io/FORME/)
+[Source, tests & local setup](https://github.com/nguyenhonggiang2407/YangSlots) · [CI](https://github.com/nguyenhonggiang2407/YangSlots/actions/workflows/ci.yml) · [Source credits](https://github.com/nguyenhonggiang2407/YangSlots/blob/main/NOTICE.md)
 
-### [YangAtlas](https://github.com/nguyenhonggiang2407/YangAtlas)
+No public application demo is currently verified. Source history was extracted from the original DTDD branch; the credited MIT reference and implementation notes are preserved.
 
-[![YangAtlas personal planner captured from the live application](https://raw.githubusercontent.com/nguyenhonggiang2407/YangAtlas/main/docs/screenshots/personal-desktop.png)](https://nguyenhonggiang2407.github.io/YangAtlas/)
+### 3–6. Full-stack and integration examples
 
-A personal travel planner for any destination, with reusable itineraries, actual expenses and preparation checklists. Real licensed photography, browser-local data and installable offline use.
+| Project | Stack and review focus | Evidence and demo |
+| --- | --- | --- |
+| **3. [YangRent](https://github.com/nguyenhonggiang2407/YangRent)** | React, FastAPI, SQLAlchemy, PostgreSQL / SQLite. Rental requests, backend role checks and record ownership. | [CI](https://github.com/nguyenhonggiang2407/YangRent/actions/workflows/ci.yml) · [Demo](https://yangrent-portfolio-demo.onrender.com/) |
+| **4. [CampusDesk](https://github.com/nguyenhonggiang2407/CampusDesk)** | React, TypeScript, Express, SQLite. Student/staff ticket workflows, private notes and version-based edit conflict checks. | [CI](https://github.com/nguyenhonggiang2407/CampusDesk/actions/workflows/ci.yml) · [Demo](https://giang-campusdesk.onrender.com) |
+| **5. [YangHomestay](https://github.com/nguyenhonggiang2407/YangHomestay)** | PHP, JavaScript, Supabase PostgreSQL. Availability, server-side pricing and booking ownership. | [Architecture](https://github.com/nguyenhonggiang2407/YangHomestay/blob/main/docs/architecture.md) · [Verification limits](https://github.com/nguyenhonggiang2407/YangHomestay/blob/main/docs/verification.md) · [Demo](https://yanghomestay.helioho.st/) |
+| **6. [YangHooks](https://github.com/nguyenhonggiang2407/YangHooks)** | Node.js, SQLite. Raw-byte HMAC verification, replay checks, signing-key rotation and a local HTTP sender. | [CI](https://github.com/nguyenhonggiang2407/YangHooks/actions/workflows/ci.yml) · [Local setup](https://github.com/nguyenhonggiang2407/YangHooks) · [Source credits](https://github.com/nguyenhonggiang2407/YangHooks/blob/main/NOTICE.md) |
 
-**Vanilla JavaScript · HTML / CSS · PWA** · No sign-in. Preserves old backups, records actual spending separately from estimates, and exports JSON / CSV / ICS or a complete printout. Verified with 50 native checks and 21 real browser workflows; new workspaces start empty.
+**Demo and test boundaries:** Render demos can wake slowly and temporary H2/SQLite data can reset; use fictional details. YangRent's public deployment uses temporary SQLite and mock payment flows. YangHooks is a local lab with no verified public demo. YangHomestay currently has no GitHub Actions workflow; its local verification record does not establish concurrent booking correctness on the deployed database. Public landing pages for the four linked demos responded on 5 November 2026; this check did not repeat sign-in, booking or checkout flows. See each repository for the exact test commands and remaining work.
 
-[Source & setup](https://github.com/nguyenhonggiang2407/YangAtlas) · [Live Demo](https://nguyenhonggiang2407.github.io/YangAtlas/) · [Photo credits](https://github.com/nguyenhonggiang2407/YangAtlas/blob/main/docs/MEDIA.md)
+**Source transparency:** These repositories include learning work, inherited baselines and credited references. Repository ownership alone does not establish sole authorship. RunwayStudio, YangSlots and YangHooks retain explicit source notices; YangRent documents [source and image provenance](https://github.com/nguyenhonggiang2407/YangRent/blob/main/docs/source-notice.md), and YangHomestay records [image sources](https://github.com/nguyenhonggiang2407/YangHomestay/blob/main/docs/image-sources.md). Review those records alongside commit history when assessing contributions. The screenshot above shows demo content, not customer activity.
 
+## Currently improving
 
-### [YangRent](https://github.com/nguyenhonggiang2407/YangRent)
-
-[![YangRent built frontend with fictional API fixtures](https://raw.githubusercontent.com/nguyenhonggiang2407/YangRent/main/docs/screenshots/home-photos-desktop.webp)](https://github.com/nguyenhonggiang2407/YangRent)
-
-A rental housing app for room discovery, booking requests, contracts, invoices and maintenance.
-
-**React · FastAPI · SQLAlchemy · PostgreSQL / SQLite** · Role checks and record ownership in the backend. The pictured frontend uses fictional API fixtures. The public full-stack demo runs on Render Free with six fictional room types and temporary SQLite data; registration, login and favorites were verified on 4 November 2026.
-
-[Source & setup](https://github.com/nguyenhonggiang2407/YangRent) · [Live Demo](https://yangrent-portfolio-demo.onrender.com/)
-
-### [CampusDesk](https://github.com/nguyenhonggiang2407/CampusDesk)
-
-[![CampusDesk student request dashboard](https://raw.githubusercontent.com/nguyenhonggiang2407/CampusDesk/main/docs/screenshots/desktop.jpg)](https://github.com/nguyenhonggiang2407/CampusDesk)
-
-A campus support desk where students submit requests and staff manage assignments, replies and internal notes.
-
-**React · TypeScript · Express · SQLite** · Server-side role checks and version-based conflict detection.
-
-[Source & setup](https://github.com/nguyenhonggiang2407/CampusDesk) · [Demo](https://giang-campusdesk.onrender.com)
-
-### [YangHomestay](https://github.com/nguyenhonggiang2407/YangHomestay)
-
-[![YangHomestay booking website captured from the live homepage](assets/screenshots/yanghomestay-desktop.jpg)](https://github.com/nguyenhonggiang2407/YangHomestay)
-
-A Hanoi homestay booking project with search, availability, booking management and server-side pricing.
-
-**PHP · JavaScript · Supabase PostgreSQL** · Backend authorization and price calculation; see the repository for deployment requirements.
-
-[Source & setup](https://github.com/nguyenhonggiang2407/YangHomestay) · [Demo](https://yanghomestay.helioho.st/)
-
-### [YangLingo](https://github.com/nguyenhonggiang2407/YangLingo)
-
-[![YangLingo English practice interface](https://raw.githubusercontent.com/nguyenhonggiang2407/YangLingo/main/docs/images/practice.png)](https://github.com/nguyenhonggiang2407/YangLingo)
-
-An English learning workspace with vocabulary books, spaced review and short practice sessions.
-
-**PHP · MySQL · JavaScript** · Progress and review schedules are scoped to each account.
-
-[Source & setup](https://github.com/nguyenhonggiang2407/YangLingo) · [Demo](https://yangcute.helioho.st/)
-
-### [ApplyFlow](https://github.com/nguyenhonggiang2407/ApplyFlow)
-
-[![ApplyFlow application tracking dashboard](https://raw.githubusercontent.com/nguyenhonggiang2407/ApplyFlow/main/docs/screenshots/desktop.jpg)](https://github.com/nguyenhonggiang2407/ApplyFlow)
-
-An internship application tracker with a status pipeline, follow-up tasks and calendar export.
-
-**React · TypeScript · Express · SQLite** · Account-scoped data and version checks for competing edits.
-
-[Source & setup](https://github.com/nguyenhonggiang2407/ApplyFlow) · [Demo](https://giang-applyflow.onrender.com)
-
-Demo landing pages and available public health/catalog endpoints were checked on **3 November 2026**. This is a point-in-time check, not an uptime guarantee or a complete checkout audit. Render Free demos may wake slowly, and temporary H2/SQLite data can reset. Use fictional details.
-
-## Independent backend projects
-
-These six repositories preserve the source history and credits from their original DTDD branches. Each has its own setup guide, tests and CI; public application demos are not yet verified.
-
-| Project | Backend focus |
-| --- | --- |
-| [YangSlots](https://github.com/nguyenhonggiang2407/YangSlots) | Java / Spring Boot · Transactional capacity checks, expiring holds and idempotency |
-| [YangDocs](https://github.com/nguyenhonggiang2407/YangDocs) | FastAPI / SQLite FTS5 · Private documents and page-addressable search evidence |
-| [YangQueue](https://github.com/nguyenhonggiang2407/YangQueue) | Node.js / SQLite · Worker leases, bounded retries and result downloads |
-| [YangData](https://github.com/nguyenhonggiang2407/YangData) | Node.js / SQLite · Typed CSV imports, parameterized queries and saved reports |
-| [YangHooks](https://github.com/nguyenhonggiang2407/YangHooks) | Node.js / SQLite · HMAC verification, replay checks and key rotation |
-| [YangLab](https://github.com/nguyenhonggiang2407/YangLab) | Node.js / SQLite · Meeting actions, content approval and OpenAPI contracts |
-
-[More projects, current CI and source credits](docs/PROJECTS.md)
-
-## Currently learning and improving
-
-- Deepening my understanding of Java and Spring Boot.
-- Designing database constraints, API validation and predictable error handling.
-- Testing important workflows and making projects easier to run.
+- Deepening Java and Spring Boot fundamentals through the two Java projects above.
+- Designing database constraints, transaction boundaries and predictable API errors.
+- Testing important workflows and documenting what each check proves.
 
 ## Contact
+
+**Open to Java Backend / Full-stack internships in Hanoi.**
 
 [nguyenhonggiang.profile@gmail.com](mailto:nguyenhonggiang.profile@gmail.com) · [GitHub](https://github.com/nguyenhonggiang2407)

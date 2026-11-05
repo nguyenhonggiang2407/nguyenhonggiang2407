@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="280" viewBox="0 0 1120 280" role="img" aria-labelledby="title desc">
-<title id="title">Nguyễn Hồng Giang — Backend &amp; Full-stack Developer</title>
-<desc id="desc">Building practical web applications with reliable backend systems. Hanoi, Vietnam. Open to Internships.</desc>
+<title id="title">Nguyễn Hồng Giang — Java Backend / Full-stack Intern</title>
+<desc id="desc">Java, Spring Boot, REST APIs and SQL. Seeking a part-time internship in Hanoi, Vietnam.</desc>
 <rect width="1120" height="280" rx="16" fill="#0B1423"/>
 <path d="M46 44V236" stroke="#65D6E8" stroke-width="3"/>
 <text x="76" y="94" fill="#F1F5F9" font-family="Segoe UI,Arial,sans-serif" font-size="46" font-weight="650">Nguyễn Hồng Giang</text>
-<text x="78" y="139" fill="#65D6E8" font-family="Segoe UI,Arial,sans-serif" font-size="26">Backend &amp; Full-stack Developer</text>
-<text x="78" y="185" fill="#F1F5F9" font-family="Segoe UI,Arial,sans-serif" font-size="21">Building practical web applications with reliable backend systems.</text>
-<text x="78" y="227" fill="#94A3B8" font-family="Segoe UI,Arial,sans-serif" font-size="20">Hanoi, Vietnam · Open to Internships</text>
+<text x="78" y="139" fill="#65D6E8" font-family="Segoe UI,Arial,sans-serif" font-size="26">Java Backend / Full-stack Intern</text>
+<text x="78" y="185" fill="#F1F5F9" font-family="Segoe UI,Arial,sans-serif" font-size="21">Java · Spring Boot · REST APIs · SQL</text>
+<text x="78" y="227" fill="#94A3B8" font-family="Segoe UI,Arial,sans-serif" font-size="20">Hanoi, Vietnam · Seeking a part-time internship</text>
 </svg>
