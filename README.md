@@ -41,9 +41,9 @@ A wardrobe and weekly outfit planner inspired by Runway, with a 12-piece demonst
 
 [![YangAtlas personal planner captured from the live application](https://raw.githubusercontent.com/nguyenhonggiang2407/YangAtlas/main/docs/screenshots/personal-desktop.png)](https://nguyenhonggiang2407.github.io/YangAtlas/)
 
-A personal travel planner for any destination, with day-by-day itineraries, actual expenses and preparation checklists. Real licensed photography, browser-local data and installable offline use.
+A personal travel planner for any destination, with reusable itineraries, actual expenses and preparation checklists. Real licensed photography, browser-local data and installable offline use.
 
-**Vanilla JavaScript · HTML / CSS · PWA** · No sign-in. Preserves old backups, records actual spending separately from estimates, and exports JSON / CSV / ICS or a complete printout. Verified with 40 native checks and 17 real browser workflows; new workspaces start empty.
+**Vanilla JavaScript · HTML / CSS · PWA** · No sign-in. Preserves old backups, records actual spending separately from estimates, and exports JSON / CSV / ICS or a complete printout. Verified with 50 native checks and 21 real browser workflows; new workspaces start empty.
 
 [Source & setup](https://github.com/nguyenhonggiang2407/YangAtlas) · [Live Demo](https://nguyenhonggiang2407.github.io/YangAtlas/) · [Photo credits](https://github.com/nguyenhonggiang2407/YangAtlas/blob/main/docs/MEDIA.md)
 
