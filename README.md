@@ -37,6 +37,17 @@ A wardrobe and weekly outfit planner inspired by Runway, with a 12-piece demonst
 
 [Source & setup](https://github.com/nguyenhonggiang2407/FORME) · [Demo](https://nguyenhonggiang2407.github.io/FORME/)
 
+### [YangAtlas](https://github.com/nguyenhonggiang2407/YangAtlas)
+
+[![YangAtlas itinerary workspace captured from the live application](https://raw.githubusercontent.com/nguyenhonggiang2407/YangAtlas/main/docs/screenshots/itinerary-desktop.png)](https://nguyenhonggiang2407.github.io/YangAtlas/)
+
+A visual travel planner with day-by-day itineraries, group budgets and calendar export. Real licensed destination photography, an original coordinate schematic and browser-local data.
+
+**Vanilla JavaScript · HTML / CSS · Local storage** · Strict JSON restore, time-overlap checks, duration-preserving reorder and Unicode-safe ICS export. Tested with 19 domain checks and 10 browser workflows; sample costs are fictional, editable estimates.
+
+[Source & setup](https://github.com/nguyenhonggiang2407/YangAtlas) · [Live Demo](https://nguyenhonggiang2407.github.io/YangAtlas/) · [Photo credits](https://github.com/nguyenhonggiang2407/YangAtlas/blob/main/docs/MEDIA.md)
+
+
 ### [YangRent](https://github.com/nguyenhonggiang2407/YangRent)
 
 [![YangRent built frontend with fictional API fixtures](https://raw.githubusercontent.com/nguyenhonggiang2407/YangRent/main/docs/screenshots/home-photos-desktop.webp)](https://github.com/nguyenhonggiang2407/YangRent)
