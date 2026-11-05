@@ -39,11 +39,11 @@ A wardrobe and weekly outfit planner inspired by Runway, with a 12-piece demonst
 
 ### [YangAtlas](https://github.com/nguyenhonggiang2407/YangAtlas)
 
-[![YangAtlas itinerary workspace captured from the live application](https://raw.githubusercontent.com/nguyenhonggiang2407/YangAtlas/main/docs/screenshots/itinerary-desktop.png)](https://nguyenhonggiang2407.github.io/YangAtlas/)
+[![YangAtlas personal planner captured from the live application](https://raw.githubusercontent.com/nguyenhonggiang2407/YangAtlas/main/docs/screenshots/personal-desktop.png)](https://nguyenhonggiang2407.github.io/YangAtlas/)
 
-A visual travel planner with day-by-day itineraries, group budgets and calendar export. Real licensed destination photography, an original coordinate schematic and browser-local data.
+A personal travel planner for any destination, with day-by-day itineraries, actual expenses and preparation checklists. Real licensed photography, browser-local data and installable offline use.
 
-**Vanilla JavaScript · HTML / CSS · Local storage** · Strict JSON restore, time-overlap checks, duration-preserving reorder and Unicode-safe ICS export. Tested with 19 domain checks and 10 browser workflows; sample costs are fictional, editable estimates.
+**Vanilla JavaScript · HTML / CSS · PWA** · No sign-in. Preserves old backups, records actual spending separately from estimates, and exports JSON / CSV / ICS or a complete printout. Verified with 40 native checks and 17 real browser workflows; new workspaces start empty.
 
 [Source & setup](https://github.com/nguyenhonggiang2407/YangAtlas) · [Live Demo](https://nguyenhonggiang2407.github.io/YangAtlas/) · [Photo credits](https://github.com/nguyenhonggiang2407/YangAtlas/blob/main/docs/MEDIA.md)
 
