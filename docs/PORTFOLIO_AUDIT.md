@@ -52,7 +52,7 @@ Test-file counts are discovery counts, not test-case totals. Capture discovery s
 
 - **Stack / database:** React 18 / Vite / FastAPI / SQLAlchemy. PostgreSQL Alembic migrations; isolated public/local SQLite demo; do not apply PostgreSQL migrations to SQLite.
 - **Build/test:** `frontend: npm ci; npm test; npm run build; npm run test:browser. backend: python -m pip install -r requirements-dev.txt; python -B -m unittest discover -s tests -v`. Execution result at T01 snapshot: UNVERIFIED; subsequent runs must be logged separately.
-- **Security / data / UI:** JWT/role/ownership tests present. Room holds use check-then-write without transaction lock; money uses float; health is process-only. Browser fixtures do not prove live API behavior.
+- **Security / data / UI:** JWT/role/ownership tests present. Room holds use check-then-write without transaction lock; money uses float. Source `backend/app/main.py` makes `/api/health` query the database when `PORTFOLIO_DEMO=true`; otherwise it is process-only. The README's blanket process-only limitation is stale. Browser fixtures do not prove live API behavior.
 - **README / license / source:** No general reuse license; source-notice and photo-sources document inherited assets and unresolved rights. README and manifests were read; dated README pass counts are not repeated as fresh results.
 - **Deployment:** Dockerfile.demo is for an isolated disposable demo. render.yaml describes a different PostgreSQL/API deployment; do not apply it to the running demo.
 
