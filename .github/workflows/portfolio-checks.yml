@@ -1,0 +1,37 @@
+name: Portfolio verification tools
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths: ['scripts/**', 'package*.json', '.github/workflows/portfolio-checks.yml']
+  workflow_dispatch:
+    inputs:
+      check_live_demos:
+        description: Run bounded public smoke checks once (no keep-alive)
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm test
+      - run: npm audit --audit-level=high
+      - if: github.event_name == 'workflow_dispatch' && inputs.check_live_demos
+        run: npx playwright install --with-deps chromium
+      - if: github.event_name == 'workflow_dispatch' && inputs.check_live_demos
+        run: npm run smoke
+      - if: always() && github.event_name == 'workflow_dispatch' && inputs.check_live_demos
+        uses: actions/upload-artifact@v4
+        with:
+          name: public-demo-smoke
+          path: smoke-results/
+          retention-days: 14

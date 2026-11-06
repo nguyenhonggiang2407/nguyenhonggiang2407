@@ -1,0 +1,957 @@
+{
+  "checked_at": "2026-11-06T14:44:14.020Z",
+  "completed_sites": 11,
+  "configured_sites": 11,
+  "checker_base_commit": "d1e775331d2fb35fdea2144f4fd4f60d58b15146",
+  "checker_source_sha256": "ea51842be32cff7cee478c8e952ae5686ac5ced6bf9676f86bcc0fec4fdff6e0",
+  "browser_unavailable": false,
+  "scope": "Public TLS/HTTP, known health, desktop public navigation and mobile landing layout only. No authenticated workflow, booking, payment, persistence, deployed commit or licensing verification.",
+  "results": [
+    {
+      "repository": "RunwayStudio",
+      "url": "https://runwaystudio-portfolio-demo.onrender.com",
+      "declared_source_commit": "2a4d31bd566d77e16f1edde3c043182ed3816997",
+      "checked_at": "2026-11-06T14:43:53.967Z",
+      "status": "VERIFIED",
+      "http": {
+        "url": "https://runwaystudio-portfolio-demo.onrender.com/",
+        "checked_at": "2026-11-06T14:43:46.905Z",
+        "attempts": [
+          {
+            "number": 1,
+            "checked_at": "2026-11-06T14:43:47.219Z",
+            "status": 200,
+            "final_url": "https://runwaystudio-portfolio-demo.onrender.com/",
+            "redirects": [],
+            "title": "Runway Studio · Discover, Style, Save & Shop",
+            "content_type": "text/html;charset=UTF-8",
+            "duration_ms": 314,
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "valid_to": "Dec 20 23:04:28 2026 GMT"
+            },
+            "ok": true,
+            "failure": null
+          }
+        ],
+        "ok": true
+      },
+      "health": {
+        "url": "https://runwaystudio-portfolio-demo.onrender.com/actuator/health/readiness",
+        "checked_at": "2026-11-06T14:43:47.219Z",
+        "attempts": [
+          {
+            "number": 1,
+            "checked_at": "2026-11-06T14:43:47.326Z",
+            "status": 200,
+            "final_url": "https://runwaystudio-portfolio-demo.onrender.com/actuator/health/readiness",
+            "redirects": [],
+            "title": "",
+            "content_type": "application/json",
+            "duration_ms": 107,
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "valid_to": "Dec 20 23:04:28 2026 GMT"
+            },
+            "ok": true,
+            "failure": null
+          }
+        ],
+        "ok": true
+      },
+      "health_scope": "Spring readiness endpoint; not proof of checkout correctness",
+      "browser": {
+        "status": "VERIFIED",
+        "viewports": [
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 1000
+            },
+            "checked_at": "2026-11-06T14:43:47.386Z",
+            "stage": "Storefront catalog",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [
+              {
+                "name": "Storefront catalog",
+                "ok": true
+              }
+            ],
+            "title": "Discover, Style, Save & Shop | Runway Studio",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/RunwayStudio-1440.jpg"
+          },
+          {
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "checked_at": "2026-11-06T14:43:51.727Z",
+            "stage": "landing",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [],
+            "title": "Discover, Style, Save & Shop | Runway Studio",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/RunwayStudio-390.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "repository": "YangRent",
+      "url": "https://yangrent-portfolio-demo.onrender.com/",
+      "declared_source_commit": "dea86a322f7d2ab27d35e1e4c7f502fdf5230fc7",
+      "checked_at": "2026-11-06T14:43:50.137Z",
+      "status": "VERIFIED",
+      "http": {
+        "url": "https://yangrent-portfolio-demo.onrender.com/",
+        "checked_at": "2026-11-06T14:43:46.918Z",
+        "attempts": [
+          {
+            "number": 1,
+            "checked_at": "2026-11-06T14:43:47.174Z",
+            "status": 200,
+            "final_url": "https://yangrent-portfolio-demo.onrender.com/",
+            "redirects": [],
+            "title": "YangRent | Thuê nhà, thuê phòng và căn hộ",
+            "content_type": "text/html; charset=utf-8",
+            "duration_ms": 255,
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "valid_to": "Dec 20 23:04:28 2026 GMT"
+            },
+            "ok": true,
+            "failure": null
+          }
+        ],
+        "ok": true
+      },
+      "health": {
+        "url": "https://yangrent-portfolio-demo.onrender.com/api/health",
+        "checked_at": "2026-11-06T14:43:47.174Z",
+        "attempts": [
+          {
+            "number": 1,
+            "checked_at": "2026-11-06T14:43:47.297Z",
+            "status": 200,
+            "final_url": "https://yangrent-portfolio-demo.onrender.com/api/health",
+            "redirects": [],
+            "title": "",
+            "content_type": "application/json",
+            "duration_ms": 123,
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "valid_to": "Dec 20 23:04:28 2026 GMT"
+            },
+            "ok": true,
+            "failure": null
+          }
+        ],
+        "ok": true
+      },
+      "health_scope": "Process; demo mode also executes SELECT 1. No concurrency proof",
+      "browser": {
+        "status": "VERIFIED",
+        "viewports": [
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 1000
+            },
+            "checked_at": "2026-11-06T14:43:47.374Z",
+            "stage": "Photo credits",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [
+              {
+                "name": "Room search",
+                "ok": true
+              },
+              {
+                "name": "Photo credits",
+                "ok": true
+              }
+            ],
+            "title": "YangRent | Thuê nhà, thuê phòng và căn hộ",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/YangRent-1440.jpg"
+          },
+          {
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "checked_at": "2026-11-06T14:43:49.131Z",
+            "stage": "landing",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [],
+            "title": "YangRent | Thuê nhà, thuê phòng và căn hộ",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/YangRent-390.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "repository": "CampusDesk",
+      "url": "https://giang-campusdesk.onrender.com",
+      "declared_source_commit": "289c9cd1083f1e380675d6834bc7b9be38ab9044",
+      "checked_at": "2026-11-06T14:43:49.460Z",
+      "status": "FAILED",
+      "http": {
+        "url": "https://giang-campusdesk.onrender.com/",
+        "checked_at": "2026-11-06T14:43:46.919Z",
+        "attempts": [
+          {
+            "number": 1,
+            "checked_at": "2026-11-06T14:43:47.306Z",
+            "status": 200,
+            "final_url": "https://giang-campusdesk.onrender.com/",
+            "redirects": [],
+            "title": "CampusDesk · A better campus, together",
+            "content_type": "text/html; charset=utf-8",
+            "duration_ms": 386,
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "valid_to": "Dec 20 23:04:28 2026 GMT"
+            },
+            "ok": true,
+            "failure": null
+          }
+        ],
+        "ok": true
+      },
+      "health": {
+        "url": "https://giang-campusdesk.onrender.com/api/health",
+        "checked_at": "2026-11-06T14:43:47.306Z",
+        "attempts": [
+          {
+            "number": 1,
+            "checked_at": "2026-11-06T14:43:47.402Z",
+            "status": 200,
+            "final_url": "https://giang-campusdesk.onrender.com/api/health",
+            "redirects": [],
+            "title": "",
+            "content_type": "application/json; charset=utf-8",
+            "duration_ms": 96,
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "valid_to": "Dec 20 23:04:28 2026 GMT"
+            },
+            "ok": true,
+            "failure": null
+          }
+        ],
+        "ok": true
+      },
+      "health_scope": "Process + SELECT 1",
+      "browser": {
+        "status": "FAILED",
+        "viewports": [
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 1000
+            },
+            "checked_at": "2026-11-06T14:43:47.458Z",
+            "stage": "Registration form (no submission)",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [
+              {
+                "name": "Registration form (no submission)",
+                "ok": true
+              }
+            ],
+            "title": "CampusDesk · A better campus, together",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/CampusDesk-1440.jpg"
+          },
+          {
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "checked_at": "2026-11-06T14:43:48.620Z",
+            "stage": "landing",
+            "ok": false,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [],
+            "title": "CampusDesk · A better campus, together",
+            "horizontal_overflow": true,
+            "screenshot": "screenshots/CampusDesk-390.jpg",
+            "failure": "HORIZONTAL_OVERFLOW"
+          }
+        ]
+      }
+    },
+    {
+      "repository": "ApplyFlow",
+      "url": "https://giang-applyflow.onrender.com",
+      "declared_source_commit": "e9c02b1575fa7f3574c93dce116628abd0319531",
+      "checked_at": "2026-11-06T14:43:52.300Z",
+      "status": "VERIFIED",
+      "http": {
+        "url": "https://giang-applyflow.onrender.com/",
+        "checked_at": "2026-11-06T14:43:49.503Z",
+        "attempts": [
+          {
+            "number": 1,
+            "checked_at": "2026-11-06T14:43:49.813Z",
+            "status": 200,
+            "final_url": "https://giang-applyflow.onrender.com/",
+            "redirects": [],
+            "title": "ApplyFlow · Theo dõi hành trình thực tập",
+            "content_type": "text/html; charset=utf-8",
+            "duration_ms": 310,
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "valid_to": "Dec 20 23:04:28 2026 GMT"
+            },
+            "ok": true,
+            "failure": null
+          }
+        ],
+        "ok": true
+      },
+      "health": {
+        "url": "https://giang-applyflow.onrender.com/api/health",
+        "checked_at": "2026-11-06T14:43:49.813Z",
+        "attempts": [
+          {
+            "number": 1,
+            "checked_at": "2026-11-06T14:43:49.923Z",
+            "status": 200,
+            "final_url": "https://giang-applyflow.onrender.com/api/health",
+            "redirects": [],
+            "title": "",
+            "content_type": "application/json; charset=utf-8",
+            "duration_ms": 110,
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "valid_to": "Dec 20 23:04:28 2026 GMT"
+            },
+            "ok": true,
+            "failure": null
+          }
+        ],
+        "ok": true
+      },
+      "health_scope": "Process + SELECT 1",
+      "browser": {
+        "status": "VERIFIED",
+        "viewports": [
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 1000
+            },
+            "checked_at": "2026-11-06T14:43:50.044Z",
+            "stage": "Registration form (no submission)",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [
+              {
+                "name": "Registration form (no submission)",
+                "ok": true
+              }
+            ],
+            "title": "ApplyFlow · Theo dõi hành trình thực tập",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/ApplyFlow-1440.jpg"
+          },
+          {
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "checked_at": "2026-11-06T14:43:51.377Z",
+            "stage": "landing",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [],
+            "title": "ApplyFlow · Theo dõi hành trình thực tập",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/ApplyFlow-390.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "repository": "PocketLedger",
+      "url": "https://giang-pocketledger.onrender.com",
+      "declared_source_commit": "d51f4ae06c75832c8edbb549b02b67d34ec8c7b1",
+      "checked_at": "2026-11-06T14:43:52.809Z",
+      "status": "VERIFIED",
+      "http": {
+        "url": "https://giang-pocketledger.onrender.com/",
+        "checked_at": "2026-11-06T14:43:50.199Z",
+        "attempts": [
+          {
+            "number": 1,
+            "checked_at": "2026-11-06T14:43:50.530Z",
+            "status": 200,
+            "final_url": "https://giang-pocketledger.onrender.com/",
+            "redirects": [],
+            "title": "PocketLedger · A little clarity for your money",
+            "content_type": "text/html; charset=utf-8",
+            "duration_ms": 329,
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "valid_to": "Dec 20 23:04:28 2026 GMT"
+            },
+            "ok": true,
+            "failure": null
+          }
+        ],
+        "ok": true
+      },
+      "health": {
+        "url": "https://giang-pocketledger.onrender.com/api/health",
+        "checked_at": "2026-11-06T14:43:50.530Z",
+        "attempts": [
+          {
+            "number": 1,
+            "checked_at": "2026-11-06T14:43:50.628Z",
+            "status": 200,
+            "final_url": "https://giang-pocketledger.onrender.com/api/health",
+            "redirects": [],
+            "title": "",
+            "content_type": "application/json; charset=utf-8",
+            "duration_ms": 98,
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "valid_to": "Dec 20 23:04:28 2026 GMT"
+            },
+            "ok": true,
+            "failure": null
+          }
+        ],
+        "ok": true
+      },
+      "health_scope": "Process + SELECT 1",
+      "browser": {
+        "status": "VERIFIED",
+        "viewports": [
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 1000
+            },
+            "checked_at": "2026-11-06T14:43:50.735Z",
+            "stage": "Registration form (no submission)",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [
+              {
+                "name": "Registration form (no submission)",
+                "ok": true
+              }
+            ],
+            "title": "PocketLedger · A little clarity for your money",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/PocketLedger-1440.jpg"
+          },
+          {
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "checked_at": "2026-11-06T14:43:51.894Z",
+            "stage": "landing",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [],
+            "title": "PocketLedger · A little clarity for your money",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/PocketLedger-390.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "repository": "DTDD",
+      "url": "https://giang-yangcareer.onrender.com/app/",
+      "declared_source_commit": "fd23028a2088100a7695af2ab5f40b8d22dafb3b",
+      "checked_at": "2026-11-06T14:43:54.331Z",
+      "status": "VERIFIED",
+      "http": {
+        "url": "https://giang-yangcareer.onrender.com/app/",
+        "checked_at": "2026-11-06T14:43:52.371Z",
+        "attempts": [
+          {
+            "number": 1,
+            "checked_at": "2026-11-06T14:43:52.659Z",
+            "status": 200,
+            "final_url": "https://giang-yangcareer.onrender.com/app/",
+            "redirects": [],
+            "title": "YangCareer · Cơ hội tiếp theo của bạn",
+            "content_type": "text/html; charset=utf-8",
+            "duration_ms": 287,
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "valid_to": "Dec 20 23:04:28 2026 GMT"
+            },
+            "ok": true,
+            "failure": null
+          }
+        ],
+        "ok": true
+      },
+      "health": {
+        "url": "https://giang-yangcareer.onrender.com/health",
+        "checked_at": "2026-11-06T14:43:52.659Z",
+        "attempts": [
+          {
+            "number": 1,
+            "checked_at": "2026-11-06T14:43:52.766Z",
+            "status": 200,
+            "final_url": "https://giang-yangcareer.onrender.com/health",
+            "redirects": [],
+            "title": "",
+            "content_type": "application/json",
+            "duration_ms": 107,
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "valid_to": "Dec 20 23:04:28 2026 GMT"
+            },
+            "ok": true,
+            "failure": null
+          }
+        ],
+        "ok": true
+      },
+      "health_scope": "Process + SQLite SELECT 1; no paid AI request",
+      "browser": {
+        "status": "VERIFIED",
+        "viewports": [
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 1000
+            },
+            "checked_at": "2026-11-06T14:43:52.857Z",
+            "stage": "About and source credits",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [
+              {
+                "name": "About and source credits",
+                "ok": true
+              }
+            ],
+            "title": "YangCareer · Cơ hội tiếp theo của bạn",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/DTDD-1440.jpg"
+          },
+          {
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "checked_at": "2026-11-06T14:43:53.740Z",
+            "stage": "landing",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [],
+            "title": "YangCareer · Cơ hội tiếp theo của bạn",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/DTDD-390.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "repository": "YangHomestay",
+      "url": "https://yanghomestay.helioho.st/",
+      "declared_source_commit": "bf649b5dc0e9f8076148e7967994aa2172655015",
+      "checked_at": "2026-11-06T14:44:04.072Z",
+      "status": "VERIFIED",
+      "http": {
+        "url": "https://yanghomestay.helioho.st/",
+        "checked_at": "2026-11-06T14:43:52.862Z",
+        "attempts": [
+          {
+            "number": 1,
+            "checked_at": "2026-11-06T14:43:53.838Z",
+            "status": 200,
+            "final_url": "https://yanghomestay.helioho.st/customer/",
+            "redirects": [
+              {
+                "status": 301,
+                "to": "https://yanghomestay.helioho.st/customer/"
+              }
+            ],
+            "title": "YangHomestay | Homestay Hà Nội đúng gu của bạn",
+            "content_type": "text/html",
+            "duration_ms": 391,
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "valid_to": "Jan 13 11:43:56 2027 GMT"
+            },
+            "ok": true,
+            "failure": null
+          }
+        ],
+        "ok": true
+      },
+      "health": null,
+      "browser": {
+        "status": "VERIFIED",
+        "viewports": [
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 1000
+            },
+            "checked_at": "2026-11-06T14:43:53.911Z",
+            "stage": "Public accommodation search",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [
+              {
+                "name": "Public accommodation search",
+                "ok": true
+              }
+            ],
+            "title": "YangHomestay | Homestay Hà Nội đúng gu của bạn",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/YangHomestay-1440.jpg"
+          },
+          {
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "checked_at": "2026-11-06T14:43:58.743Z",
+            "stage": "landing",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [],
+            "title": "YangHomestay | Homestay Hà Nội đúng gu của bạn",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/YangHomestay-390.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "repository": "YangLingo",
+      "url": "https://yangcute.helioho.st/",
+      "declared_source_commit": "4e9777e892e9fc2b7bc564a51a2b4637f5c24f53",
+      "checked_at": "2026-11-06T14:44:03.022Z",
+      "status": "VERIFIED",
+      "http": {
+        "url": "https://yangcute.helioho.st/",
+        "checked_at": "2026-11-06T14:43:54.013Z",
+        "attempts": [
+          {
+            "number": 1,
+            "checked_at": "2026-11-06T14:43:55.032Z",
+            "status": 200,
+            "final_url": "https://yangcute.helioho.st/",
+            "redirects": [],
+            "title": "YangLingo | Một chút mỗi ngày, tiếng Anh tiến xa",
+            "content_type": "text/html; charset=UTF-8",
+            "duration_ms": 1019,
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "valid_to": "Jan 19 03:42:03 2027 GMT"
+            },
+            "ok": true,
+            "failure": null
+          }
+        ],
+        "ok": true
+      },
+      "health": null,
+      "browser": {
+        "status": "VERIFIED",
+        "viewports": [
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 1000
+            },
+            "checked_at": "2026-11-06T14:43:55.122Z",
+            "stage": "Registration form (no submission)",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [
+              {
+                "name": "Registration form (no submission)",
+                "ok": true
+              }
+            ],
+            "title": "YangLingo | Một chút mỗi ngày, tiếng Anh tiến xa",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/YangLingo-1440.jpg"
+          },
+          {
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "checked_at": "2026-11-06T14:43:59.069Z",
+            "stage": "landing",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [],
+            "title": "YangLingo | Một chút mỗi ngày, tiếng Anh tiến xa",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/YangLingo-390.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "repository": "YangLocal",
+      "url": "https://nguyenhonggiangcute.helioho.st/",
+      "declared_source_commit": "5e38ff88bc12fd3b8e5d378a9293d178039cbf1d",
+      "checked_at": "2026-11-06T14:44:09.860Z",
+      "status": "VERIFIED",
+      "http": {
+        "url": "https://nguyenhonggiangcute.helioho.st/",
+        "checked_at": "2026-11-06T14:43:54.374Z",
+        "attempts": [
+          {
+            "number": 1,
+            "checked_at": "2026-11-06T14:43:55.863Z",
+            "status": 200,
+            "final_url": "https://nguyenhonggiangcute.helioho.st/",
+            "redirects": [],
+            "title": "YangLocal &#8211; Đi đâu, ăn gì, học ở đâu — có YangLocal.",
+            "content_type": "text/html; charset=UTF-8",
+            "duration_ms": 1489,
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "valid_to": "Jan 19 03:42:48 2027 GMT"
+            },
+            "ok": true,
+            "failure": null
+          }
+        ],
+        "ok": true
+      },
+      "health": null,
+      "browser": {
+        "status": "VERIFIED",
+        "viewports": [
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 1000
+            },
+            "checked_at": "2026-11-06T14:43:55.982Z",
+            "stage": "Public places directory",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [
+              {
+                "name": "Public places directory",
+                "ok": true
+              }
+            ],
+            "title": "YangLocal – Đi đâu, ăn gì, học ở đâu — có YangLocal.",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/YangLocal-1440.jpg"
+          },
+          {
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "checked_at": "2026-11-06T14:44:03.638Z",
+            "stage": "landing",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [],
+            "title": "YangLocal – Đi đâu, ăn gì, học ở đâu — có YangLocal.",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/YangLocal-390.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "repository": "FORME",
+      "url": "https://nguyenhonggiang2407.github.io/FORME/",
+      "declared_source_commit": "c7a456d4cbfa5b203f787a1adb196cca373b22b1",
+      "checked_at": "2026-11-06T14:44:11.018Z",
+      "status": "VERIFIED",
+      "http": {
+        "url": "https://nguyenhonggiang2407.github.io/FORME/",
+        "checked_at": "2026-11-06T14:44:03.114Z",
+        "attempts": [
+          {
+            "number": 1,
+            "checked_at": "2026-11-06T14:44:04.945Z",
+            "status": 200,
+            "final_url": "https://nguyenhonggiang2407.github.io/FORME/",
+            "redirects": [],
+            "title": "FORME — Mặc đẹp từ những gì bạn có.",
+            "content_type": "text/html; charset=utf-8",
+            "duration_ms": 1831,
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "valid_to": "Dec 29 23:44:45 2026 GMT"
+            },
+            "ok": true,
+            "failure": null
+          }
+        ],
+        "ok": true
+      },
+      "health": null,
+      "browser": {
+        "status": "VERIFIED",
+        "viewports": [
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 1000
+            },
+            "checked_at": "2026-11-06T14:44:05.042Z",
+            "stage": "Wardrobe navigation",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [
+              {
+                "name": "Wardrobe navigation",
+                "ok": true
+              }
+            ],
+            "title": "FORME — Mặc đẹp từ những gì bạn có.",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/FORME-1440.jpg"
+          },
+          {
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "checked_at": "2026-11-06T14:44:07.820Z",
+            "stage": "landing",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [],
+            "title": "FORME — Mặc đẹp từ những gì bạn có.",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/FORME-390.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "repository": "YangAtlas",
+      "url": "https://nguyenhonggiang2407.github.io/YangAtlas/",
+      "declared_source_commit": "1631c1dca54ed7cd2319886ce1d119f435059c62",
+      "checked_at": "2026-11-06T14:44:13.915Z",
+      "status": "VERIFIED",
+      "http": {
+        "url": "https://nguyenhonggiang2407.github.io/YangAtlas/",
+        "checked_at": "2026-11-06T14:44:04.133Z",
+        "attempts": [
+          {
+            "number": 1,
+            "checked_at": "2026-11-06T14:44:05.199Z",
+            "status": 200,
+            "final_url": "https://nguyenhonggiang2407.github.io/YangAtlas/",
+            "redirects": [],
+            "title": "YangAtlas — Mỗi chuyến đi, một câu chuyện",
+            "content_type": "text/html; charset=utf-8",
+            "duration_ms": 1065,
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "valid_to": "Dec 29 23:44:45 2026 GMT"
+            },
+            "ok": true,
+            "failure": null
+          }
+        ],
+        "ok": true
+      },
+      "health": null,
+      "browser": {
+        "status": "VERIFIED",
+        "viewports": [
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 1000
+            },
+            "checked_at": "2026-11-06T14:44:05.312Z",
+            "stage": "Media and source information",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [
+              {
+                "name": "Media and source information",
+                "ok": true
+              }
+            ],
+            "title": "YangAtlas — Mỗi chuyến đi, một câu chuyện",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/YangAtlas-1440.jpg"
+          },
+          {
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "checked_at": "2026-11-06T14:44:10.508Z",
+            "stage": "landing",
+            "ok": true,
+            "page_errors": 0,
+            "blocked_mutations": 0,
+            "navigation": [],
+            "title": "YangAtlas — Mỗi chuyến đi, một câu chuyện",
+            "horizontal_overflow": false,
+            "screenshot": "screenshots/YangAtlas-390.jpg"
+          }
+        ]
+      }
+    }
+  ]
+}
