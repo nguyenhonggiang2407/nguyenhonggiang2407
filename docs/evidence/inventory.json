@@ -1,0 +1,1399 @@
+{
+  "checked_at": "2026-11-06T14:24:11.691Z",
+  "source": "Fresh git checkouts; tracked manifests, README, tests, workflows and notices",
+  "repositories": [
+    {
+      "name": "RunwayStudio",
+      "source_url": "https://github.com/nguyenhonggiang2407/RunwayStudio",
+      "commit": "2a4d31bd566d77e16f1edde3c043182ed3816997",
+      "branch": "main",
+      "tracked_files": 365,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [
+        "https://runwaystudio-portfolio-demo.onrender.com"
+      ],
+      "readme_commands": [
+        "./mvnw clean verify\r\njava -jar target/runway-store-2.0.0.jar",
+        ".\\mvnw.cmd clean verify\r\njava -jar target\\runway-store-2.0.0.jar",
+        "./mvnw clean verify\r\nnpm ci\r\nnpm run check\r\nnpx playwright install chromium\r\nnpm run test:e2e",
+        "# Export DB_URL, LEGACY_DB_URL, DB_USERNAME, DB_PASSWORD tới hai schema tạm riêng biệt.\r\n./mvnw -Pmysql-verify verify"
+      ],
+      "manifests": [
+        "package.json",
+        "pom.xml"
+      ],
+      "packages": [
+        {
+          "path": "package.json",
+          "scripts": {
+            "check": "node tools/check-ui.mjs && node tools/check-media.mjs",
+            "test:e2e": "playwright test"
+          },
+          "engines": {
+            "node": ">=20"
+          }
+        }
+      ],
+      "dependencies": [
+        "@playwright/test",
+        "spring-boot-starter-parent",
+        "runway-store",
+        "spring-boot-starter-web",
+        "spring-boot-starter-data-jpa",
+        "spring-boot-starter-security",
+        "spring-boot-starter-validation",
+        "mysql-connector-j",
+        "h2",
+        "spring-boot-starter-test",
+        "spring-security-test",
+        "flyway-core",
+        "flyway-mysql",
+        "spring-boot-starter-actuator",
+        "spring-boot-maven-plugin",
+        "maven-failsafe-plugin"
+      ],
+      "workflows": [
+        ".github/workflows/ci.yml"
+      ],
+      "tests": [
+        "e2e/store.spec.js",
+        "src/test/java/vn/runway/store/CommerceIntegrationTest.java",
+        "src/test/java/vn/runway/store/MySqlAcceptanceIT.java",
+        "src/test/java/vn/runway/store/ProductionConfigurationTest.java",
+        "src/test/java/vn/runway/store/SecurityRegressionTest.java",
+        "src/test/java/vn/runway/store/StoreIntegrationTest.java",
+        "src/test/java/vn/runway/store/StudioIntegrationTest.java",
+        "src/test/java/vn/runway/store/config/AdminBootstrapTest.java",
+        "src/test/java/vn/runway/store/service/ApprovedMediaServiceTest.java",
+        "src/test/resources/mockito-extensions/org.mockito.plugins.MockMaker"
+      ],
+      "screenshots": [
+        "docs/screenshots/admin-scene-desktop-1440.png",
+        "docs/screenshots/admin-scene-mobile-360.png",
+        "docs/screenshots/admin-scene-mobile-390.png",
+        "docs/screenshots/home-before-desktop-1440.png",
+        "docs/screenshots/home-before-mobile-390.png",
+        "docs/screenshots/home-desktop-1440.png",
+        "docs/screenshots/home-mobile-360.png",
+        "docs/screenshots/home-mobile-390.png",
+        "docs/screenshots/live-editorial-desktop.png",
+        "docs/screenshots/live-editorial-mobile.png",
+        "docs/screenshots/outfit-desktop-1440.png",
+        "docs/screenshots/outfit-mobile-360.png",
+        "docs/screenshots/outfit-mobile-390.png",
+        "docs/screenshots/scene-desktop-1440.png",
+        "docs/screenshots/scene-mobile-360.png",
+        "docs/screenshots/scene-mobile-390.png"
+      ],
+      "notices": [
+        "THIRD_PARTY_NOTICES.md",
+        "docs/ATTRIBUTION.md",
+        "docs/MEDIA_LICENSES.md",
+        "src/main/resources/licensed-photo-manifest.json"
+      ],
+      "deployment": [
+        ".env.example",
+        "Dockerfile",
+        "compose.yaml",
+        "render.yaml"
+      ],
+      "database_files": [
+        "src/main/resources/application-demo.properties",
+        "src/main/resources/application-mysql.properties",
+        "src/main/resources/application-prod.properties",
+        "src/main/resources/application.properties",
+        "src/main/resources/db/migration/h2/V1__source_baseline.sql",
+        "src/main/resources/db/migration/h2/V2__studio_core.sql",
+        "src/main/resources/db/migration/h2/V3__commerce_extensions.sql",
+        "src/main/resources/db/migration/mysql/V1__source_baseline.sql",
+        "src/main/resources/db/migration/mysql/V2__studio_core.sql",
+        "src/main/resources/db/migration/mysql/V3__commerce_extensions.sql"
+      ],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "YangSlots",
+      "source_url": "https://github.com/nguyenhonggiang2407/YangSlots",
+      "commit": "f8a1cb3350d3979bf9f297edcc8849c231df3709",
+      "branch": "main",
+      "tracked_files": 45,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [],
+      "readme_commands": [
+        "git clone https://github.com/nguyenhonggiang2407/YangSlots.git\ncd YangSlots\n./mvnw spring-boot:run",
+        "mvnw.cmd spring-boot:run",
+        "docker compose up --build",
+        "./mvnw clean package\njava -jar target/yangslots.jar",
+        "./mvnw verify\nnpm ci\nnpx playwright install --with-deps chromium\nnpm run test:ui\nnpm run format:check"
+      ],
+      "manifests": [
+        "package.json",
+        "pom.xml"
+      ],
+      "packages": [
+        {
+          "path": "package.json",
+          "scripts": {
+            "test:ui": "node --test test/browser.mjs",
+            "format": "prettier --write .",
+            "format:check": "prettier --check ."
+          },
+          "engines": {}
+        }
+      ],
+      "dependencies": [
+        "@playwright/test",
+        "prettier",
+        "spring-boot-starter-parent",
+        "yangslots",
+        "spring-boot-starter-webmvc",
+        "spring-boot-starter-jdbc",
+        "spring-boot-starter-validation",
+        "h2",
+        "spring-boot-starter-webmvc-test",
+        "spring-boot-starter-jdbc-test",
+        "json-path",
+        "spring-boot-maven-plugin"
+      ],
+      "workflows": [
+        ".github/workflows/ci.yml"
+      ],
+      "tests": [
+        "src/test/java/vn/yang/slots/PersistenceTest.java",
+        "src/test/java/vn/yang/slots/ReservationsTest.java",
+        "src/test/java/vn/yang/slots/RulesTest.java",
+        "test/browser.mjs"
+      ],
+      "screenshots": [
+        "docs/screenshots/desktop.png",
+        "docs/screenshots/hold.png",
+        "docs/screenshots/mobile.png"
+      ],
+      "notices": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "deployment": [
+        "Dockerfile",
+        "compose.yaml"
+      ],
+      "database_files": [
+        "src/main/resources/application.properties",
+        "src/main/resources/schema.sql"
+      ],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "YangRent",
+      "source_url": "https://github.com/nguyenhonggiang2407/YangRent",
+      "commit": "dea86a322f7d2ab27d35e1e4c7f502fdf5230fc7",
+      "branch": "main",
+      "tracked_files": 160,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [
+        "https://yangrent-portfolio-demo.onrender.com/"
+      ],
+      "readme_commands": [
+        "python -m venv .venv\r\n.\\.venv\\Scripts\\Activate.ps1\r\npython -m pip install -r requirements-dev.txt\r\nCopy-Item .env.example .env",
+        "python -m venv .venv\r\nsource .venv/bin/activate\r\npython -m pip install -r requirements-dev.txt\r\ncp .env.example .env",
+        "python -c \"import secrets; print(secrets.token_urlsafe(48)); print(secrets.token_urlsafe(48))\"",
+        "python -m seed.seed --local-demo",
+        "python -m uvicorn app.main:app --host 127.0.0.1 --port 8000",
+        "npm ci\r\nnpm run dev",
+        "python provision_admin.py --create-admin",
+        "npm test\r\nnpm run build",
+        "python -m unittest discover -s tests -v",
+        "npx playwright install chromium\r\nnpm run test:browser"
+      ],
+      "manifests": [
+        "backend/requirements-dev.txt",
+        "backend/requirements.txt",
+        "frontend/package.json"
+      ],
+      "packages": [
+        {
+          "path": "frontend/package.json",
+          "scripts": {
+            "dev": "vite",
+            "build": "vite build",
+            "preview": "vite preview",
+            "test": "node --test tests/*.mjs",
+            "test:browser": "node --test e2e/*.mjs"
+          },
+          "engines": {}
+        }
+      ],
+      "dependencies": [
+        "-r requirements.txt",
+        "httpx>=0.28.1",
+        "fastapi>=0.115.0",
+        "uvicorn[standard]>=0.30.0",
+        "sqlalchemy>=2.0.36",
+        "pydantic>=2.10.0",
+        "pydantic-settings>=2.6.0",
+        "python-dotenv>=1.0.1",
+        "PyJWT>=2.9.0",
+        "bcrypt>=4.2.0",
+        "python-multipart>=0.0.12",
+        "email-validator>=2.2.0",
+        "alembic>=1.13.0",
+        "psycopg2-binary>=2.9.9",
+        "a2wsgi>=1.2.0",
+        "axios",
+        "leaflet",
+        "leaflet.markercluster",
+        "lucide-react",
+        "react",
+        "react-dom",
+        "react-router-dom",
+        "recharts",
+        "@playwright/test",
+        "@vitejs/plugin-react",
+        "autoprefixer",
+        "postcss",
+        "tailwindcss",
+        "vite"
+      ],
+      "workflows": [
+        ".github/workflows/ci.yml"
+      ],
+      "tests": [
+        "backend/tests/test_portfolio_demo.py",
+        "backend/tests/test_public_demo.py",
+        "backend/tests/test_publication_config.py",
+        "backend/tests/test_static_frontend.py",
+        "backend/tests/test_video_notifications.py",
+        "frontend/e2e/photos.mjs",
+        "frontend/tests/notification_stream_test.mjs"
+      ],
+      "screenshots": [
+        "docs/screenshots/home-photos-desktop.webp",
+        "docs/screenshots/home-photos-mobile.webp"
+      ],
+      "notices": [
+        "docs/photo-sources.md",
+        "docs/source-notice.md"
+      ],
+      "deployment": [
+        "Dockerfile.demo",
+        "backend/.env.example",
+        "frontend/.env.example",
+        "render.yaml"
+      ],
+      "database_files": [
+        "backend/migrations/README",
+        "backend/migrations/env.py",
+        "backend/migrations/script.py.mako",
+        "backend/migrations/versions/3b5c94602144_baseline_schema.py",
+        "backend/migrations/versions/3f2ad5f07e7a_add_rental_requests_invoice_items_audit_.py",
+        "backend/migrations/versions/a1b2c3d4e5f6_add_booking_video_3d_contract_sign.py",
+        "backend/seed/__init__.py",
+        "backend/seed/seed.py"
+      ],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "CampusDesk",
+      "source_url": "https://github.com/nguyenhonggiang2407/CampusDesk",
+      "commit": "289c9cd1083f1e380675d6834bc7b9be38ab9044",
+      "branch": "main",
+      "tracked_files": 57,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [
+        "https://giang-campusdesk.onrender.com"
+      ],
+      "readme_commands": [
+        "docker compose up --build -d",
+        "npm ci\ncp .env.example .env\nnpm run dev",
+        "npm run check\nnpm run format:check\nnpm start",
+        "npm run create-staff",
+        "npm run build\nnpx playwright install chromium\nnpm run test:browser"
+      ],
+      "manifests": [
+        "package.json"
+      ],
+      "packages": [
+        {
+          "path": "package.json",
+          "scripts": {
+            "dev": "concurrently -k -n API,WEB -c cyan,magenta \"npm:dev:api\" \"npm:dev:web\"",
+            "dev:api": "node --env-file-if-exists=.env --import tsx --watch server/index.ts",
+            "dev:web": "vite --host 127.0.0.1 --strictPort",
+            "build": "tsc -p tsconfig.client.json && tsc -p tsconfig.server.json && vite build",
+            "start": "node --env-file-if-exists=.env dist/server/server/index.js",
+            "create-staff": "node --env-file-if-exists=.env dist/server/server/create-staff.js",
+            "test": "node --import tsx --test tests/*.test.ts",
+            "check": "npm run test && npm run build",
+            "test:browser": "node --test e2e/browser.mjs",
+            "format": "prettier --write .",
+            "format:check": "prettier --check ."
+          },
+          "engines": {
+            "node": ">=24.0.0"
+          }
+        }
+      ],
+      "dependencies": [
+        "express",
+        "lucide-react",
+        "react",
+        "react-dom",
+        "zod",
+        "@playwright/test",
+        "@types/express",
+        "@types/node",
+        "@types/react",
+        "@types/react-dom",
+        "@vitejs/plugin-react",
+        "concurrently",
+        "prettier",
+        "tsx",
+        "typescript",
+        "vite"
+      ],
+      "workflows": [
+        ".github/workflows/ci.yml"
+      ],
+      "tests": [
+        "e2e/browser.mjs",
+        "tests/api.test.ts",
+        "tests/client-api.test.ts",
+        "tests/config.test.ts",
+        "tests/fixtures/schema-v1.sql",
+        "tests/knowledge-api.test.ts",
+        "tests/knowledge-migration.test.ts",
+        "tests/pending-save.test.ts"
+      ],
+      "screenshots": [
+        "docs/screenshots/desktop.jpg",
+        "docs/screenshots/guide-editor-desktop.png",
+        "docs/screenshots/guide-mobile.png",
+        "docs/screenshots/knowledge-desktop.png",
+        "docs/screenshots/knowledge-mobile.png",
+        "docs/screenshots/mobile.jpg"
+      ],
+      "notices": [
+        "LICENSE"
+      ],
+      "deployment": [
+        ".env.example",
+        "Dockerfile",
+        "compose.yaml",
+        "render.yaml"
+      ],
+      "database_files": [
+        "tests/fixtures/schema-v1.sql"
+      ],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "ApplyFlow",
+      "source_url": "https://github.com/nguyenhonggiang2407/ApplyFlow",
+      "commit": "e9c02b1575fa7f3574c93dce116628abd0319531",
+      "branch": "main",
+      "tracked_files": 52,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [
+        "https://giang-applyflow.onrender.com"
+      ],
+      "readme_commands": [
+        "npm ci\r\ncp .env.example .env\r\nnpm run dev",
+        "npm run check\r\nnpm run format:check",
+        "npm run build\r\nnpm start",
+        "docker compose up --build -d",
+        "npm run build\r\nnpx playwright install chromium\r\nnpm run test:browser"
+      ],
+      "manifests": [
+        "package.json"
+      ],
+      "packages": [
+        {
+          "path": "package.json",
+          "scripts": {
+            "dev": "concurrently -k -n api,web \"tsx watch server/src/index.ts\" \"vite --config client/vite.config.ts\"",
+            "build": "npm run typecheck && vite build --config client/vite.config.ts && tsc -p server/tsconfig.json",
+            "start": "node --env-file-if-exists=.env dist/server/server/src/index.js",
+            "typecheck": "tsc -p client/tsconfig.json && tsc -p server/tsconfig.json --noEmit",
+            "format": "prettier --write .",
+            "format:check": "prettier --check .",
+            "test": "node --import tsx --test tests/*.test.ts",
+            "check": "npm run typecheck && npm test && npm run build",
+            "prune:demo": "tsx server/src/prune-demo.ts",
+            "test:browser": "node --test e2e/browser.mjs"
+          },
+          "engines": {
+            "node": ">=24.0.0"
+          }
+        }
+      ],
+      "dependencies": [
+        "cookie",
+        "dotenv",
+        "express",
+        "express-rate-limit",
+        "helmet",
+        "lucide-react",
+        "react",
+        "react-dom",
+        "zod",
+        "@playwright/test",
+        "@types/express",
+        "@types/node",
+        "@types/react",
+        "@types/react-dom",
+        "@types/supertest",
+        "@vitejs/plugin-react",
+        "concurrently",
+        "prettier",
+        "supertest",
+        "tsx",
+        "typescript",
+        "vite"
+      ],
+      "workflows": [
+        ".github/workflows/ci.yml"
+      ],
+      "tests": [
+        "e2e/browser.mjs",
+        "tests/api.test.ts",
+        "tests/calendar-api.test.ts",
+        "tests/calendar.test.ts",
+        "tests/client-api.test.ts"
+      ],
+      "screenshots": [
+        "docs/screenshots/calendar-desktop.png",
+        "docs/screenshots/calendar-mobile.png",
+        "docs/screenshots/desktop.jpg",
+        "docs/screenshots/mobile.jpg"
+      ],
+      "notices": [
+        "LICENSE"
+      ],
+      "deployment": [
+        ".env.example",
+        "Dockerfile",
+        "compose.yaml",
+        "render.yaml"
+      ],
+      "database_files": [],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "PocketLedger",
+      "source_url": "https://github.com/nguyenhonggiang2407/PocketLedger",
+      "commit": "d51f4ae06c75832c8edbb549b02b67d34ec8c7b1",
+      "branch": "main",
+      "tracked_files": 39,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [
+        "https://giang-pocketledger.onrender.com"
+      ],
+      "readme_commands": [
+        "npm ci\r\nnpm run dev",
+        "npm test\r\nnpm run build",
+        "npm start",
+        "docker compose up --build -d",
+        "npm run build\r\nnpx playwright install chromium\r\nnpm run test:browser"
+      ],
+      "manifests": [
+        "package.json"
+      ],
+      "packages": [
+        {
+          "path": "package.json",
+          "scripts": {
+            "dev": "concurrently -k \"tsx watch server/index.ts\" \"vite --host 127.0.0.1\"",
+            "build": "tsc -p tsconfig.json && tsc -p tsconfig.server.json && vite build",
+            "start": "node --env-file-if-exists=.env dist-server/index.js",
+            "test": "node --import tsx --test server/*.test.ts",
+            "test:browser": "node --test e2e/browser.mjs"
+          },
+          "engines": {
+            "node": ">=24.0.0"
+          }
+        }
+      ],
+      "dependencies": [
+        "express",
+        "helmet",
+        "react",
+        "react-dom",
+        "zod",
+        "@playwright/test",
+        "@types/express",
+        "@types/node",
+        "@types/react",
+        "@types/react-dom",
+        "@types/supertest",
+        "@vitejs/plugin-react",
+        "concurrently",
+        "supertest",
+        "tsx",
+        "typescript",
+        "vite"
+      ],
+      "workflows": [
+        ".github/workflows/ci.yml"
+      ],
+      "tests": [
+        "e2e/browser.mjs",
+        "server/app.test.ts",
+        "server/continuity-api.test.ts",
+        "server/pagination.test.ts",
+        "server/pending-save.test.ts"
+      ],
+      "screenshots": [
+        "docs/screenshots/budgets-desktop.png",
+        "docs/screenshots/budgets-mobile.png",
+        "docs/screenshots/desktop.jpg",
+        "docs/screenshots/mobile.jpg"
+      ],
+      "notices": [
+        "LICENSE"
+      ],
+      "deployment": [
+        ".env.example",
+        "Dockerfile",
+        "compose.yaml",
+        "render.yaml"
+      ],
+      "database_files": [],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "YangHooks",
+      "source_url": "https://github.com/nguyenhonggiang2407/YangHooks",
+      "commit": "036161c2d2d81fb7389accc1fe6220d3600787c4",
+      "branch": "main",
+      "tracked_files": 32,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [],
+      "readme_commands": [
+        "git clone https://github.com/nguyenhonggiang2407/YangHooks.git\r\ncd YangHooks\r\nnpm ci\r\nnpm start",
+        "docker compose up --build",
+        "npm test\r\nnpx playwright install --with-deps chromium\r\nnpm run test:ui\r\nnpm run format:check"
+      ],
+      "manifests": [
+        "package.json"
+      ],
+      "packages": [
+        {
+          "path": "package.json",
+          "scripts": {
+            "start": "node --experimental-sqlite server.mjs",
+            "test": "node --experimental-sqlite --test test/*.test.mjs",
+            "test:ui": "node --experimental-sqlite --test test/browser.mjs",
+            "format": "prettier --write .",
+            "format:check": "prettier --check ."
+          },
+          "engines": {
+            "node": ">=24.0.0"
+          }
+        }
+      ],
+      "dependencies": [
+        "@playwright/test",
+        "prettier"
+      ],
+      "workflows": [
+        ".github/workflows/ci.yml"
+      ],
+      "tests": [
+        "test/api.test.mjs",
+        "test/browser.mjs",
+        "test/cli.test.mjs",
+        "test/foundation.test.mjs"
+      ],
+      "screenshots": [
+        "docs/screenshots/desktop.png",
+        "docs/screenshots/mobile.png",
+        "docs/screenshots/receipt.png"
+      ],
+      "notices": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "deployment": [
+        "Dockerfile",
+        "compose.yaml"
+      ],
+      "database_files": [],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "YangQueue",
+      "source_url": "https://github.com/nguyenhonggiang2407/YangQueue",
+      "commit": "60407218de9ee8e92210623eada86d177d1bf877",
+      "branch": "main",
+      "tracked_files": 32,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [],
+      "readme_commands": [
+        "git clone https://github.com/nguyenhonggiang2407/YangQueue.git\r\ncd YangQueue\r\nnpm ci\r\nnpm start",
+        "npm ci --omit=dev\r\nnpm start",
+        "docker compose up --build",
+        "npm ci\r\nnpm test\r\nnpx playwright install --with-deps chromium\r\nnpm run test:ui"
+      ],
+      "manifests": [
+        "package.json"
+      ],
+      "packages": [
+        {
+          "path": "package.json",
+          "scripts": {
+            "start": "node --experimental-sqlite server.mjs",
+            "test": "node --experimental-sqlite --test test/*.test.mjs",
+            "test:ui": "node --experimental-sqlite --test test/browser.mjs",
+            "format": "prettier --write .",
+            "format:check": "prettier --check ."
+          },
+          "engines": {
+            "node": ">=24.0.0"
+          }
+        }
+      ],
+      "dependencies": [
+        "@playwright/test",
+        "prettier"
+      ],
+      "workflows": [
+        ".github/workflows/ci.yml"
+      ],
+      "tests": [
+        "test/api.test.mjs",
+        "test/browser.mjs",
+        "test/foundation.test.mjs"
+      ],
+      "screenshots": [
+        "docs/screenshots/desktop.png",
+        "docs/screenshots/mobile.png",
+        "docs/screenshots/result.png"
+      ],
+      "notices": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "deployment": [
+        "Dockerfile",
+        "compose.yaml"
+      ],
+      "database_files": [],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "YangData",
+      "source_url": "https://github.com/nguyenhonggiang2407/YangData",
+      "commit": "a56497d7622a52f767d97b0ba0e40b246517cf27",
+      "branch": "main",
+      "tracked_files": 32,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [],
+      "readme_commands": [
+        "git clone https://github.com/nguyenhonggiang2407/YangData.git\r\ncd YangData\r\nnpm ci\r\nnpm start",
+        "docker compose up --build",
+        "npm test\r\nnpx playwright install --with-deps chromium\r\nnpm run test:ui\r\nnpm run format:check"
+      ],
+      "manifests": [
+        "package.json"
+      ],
+      "packages": [
+        {
+          "path": "package.json",
+          "scripts": {
+            "start": "node --experimental-sqlite server.mjs",
+            "test": "node --experimental-sqlite --test test/*.test.mjs",
+            "test:ui": "node --experimental-sqlite --test test/browser.mjs",
+            "format": "prettier --write .",
+            "format:check": "prettier --check ."
+          },
+          "engines": {
+            "node": ">=24.0.0"
+          }
+        }
+      ],
+      "dependencies": [
+        "@playwright/test",
+        "prettier"
+      ],
+      "workflows": [
+        ".github/workflows/ci.yml"
+      ],
+      "tests": [
+        "test/api.test.mjs",
+        "test/browser.mjs",
+        "test/foundation.test.mjs",
+        "test/store.test.mjs"
+      ],
+      "screenshots": [
+        "docs/screenshots/desktop.png",
+        "docs/screenshots/mobile.png",
+        "docs/screenshots/query-plan.png",
+        "docs/screenshots/reports.png"
+      ],
+      "notices": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "deployment": [
+        "Dockerfile",
+        "compose.yaml"
+      ],
+      "database_files": [],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "YangDocs",
+      "source_url": "https://github.com/nguyenhonggiang2407/YangDocs",
+      "commit": "a667c023477b44d6bf72479103325bfa8683e1d0",
+      "branch": "main",
+      "tracked_files": 32,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [],
+      "readme_commands": [
+        "git clone https://github.com/nguyenhonggiang2407/YangDocs.git\r\ncd YangDocs\r\npython -m venv .venv\r\nsource .venv/bin/activate\r\n# Windows PowerShell: .venv\\Scripts\\Activate.ps1\r\npip install -r requirements.txt\r\nuvicorn app.main:app --reload --host 127.0.0.1 --port 8000",
+        "docker compose up --build",
+        "pip install -r requirements-dev.txt\r\nruff check app tests\r\nruff format --check app tests\r\npython -m pytest tests/test_documents.py -q\r\npython -m playwright install chromium\r\npython -m pytest tests/test_ui.py -q"
+      ],
+      "manifests": [
+        "pyproject.toml",
+        "requirements-dev.txt",
+        "requirements.txt"
+      ],
+      "packages": [],
+      "dependencies": [
+        "[tool.pytest.ini_options]",
+        "testpaths = [\"tests\"]",
+        "pythonpath = [\".\"]",
+        "[tool.ruff]",
+        "line-length = 100",
+        "target-version = \"py312\"",
+        "exclude = [\"upstream\"]",
+        "[tool.ruff.lint]",
+        "select = [\"E\", \"F\", \"I\", \"B\", \"UP\"]",
+        "-r requirements.txt",
+        "httpx==0.28.1",
+        "pytest==9.2.0",
+        "ruff==0.17.3",
+        "playwright==1.64.1",
+        "fastapi==0.162.0",
+        "starlette==1.10.0",
+        "uvicorn==0.54.0",
+        "python-multipart==0.0.33",
+        "pypdf==6.21.4"
+      ],
+      "workflows": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/container.yml"
+      ],
+      "tests": [
+        "tests/conftest.py",
+        "tests/test_documents.py",
+        "tests/test_ui.py"
+      ],
+      "screenshots": [
+        "docs/screenshots/desktop.png",
+        "docs/screenshots/mobile.png",
+        "docs/screenshots/search.png"
+      ],
+      "notices": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "deployment": [
+        "Dockerfile",
+        "compose.yaml"
+      ],
+      "database_files": [],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "YangLab",
+      "source_url": "https://github.com/nguyenhonggiang2407/YangLab",
+      "commit": "ce3197b5e6e3508a6531d8dcd180fcee337d55ae",
+      "branch": "main",
+      "tracked_files": 45,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [],
+      "readme_commands": [
+        "git clone https://github.com/nguyenhonggiang2407/YangLab.git\r\ncd YangLab\r\nnpm ci\r\nnpm start",
+        "npm ci --omit=dev\r\nnpm start",
+        "docker compose up --build",
+        "npm ci\r\nnpm test\r\nnpx playwright install chromium\r\nnpm run test:ui"
+      ],
+      "manifests": [
+        "package.json"
+      ],
+      "packages": [
+        {
+          "path": "package.json",
+          "scripts": {
+            "start": "node --experimental-sqlite server.mjs",
+            "test": "node --experimental-sqlite --test test/*.test.mjs",
+            "test:ui": "node --experimental-sqlite --test test/browser.mjs",
+            "format": "prettier --write .",
+            "format:check": "prettier --check ."
+          },
+          "engines": {
+            "node": ">=24.0.0"
+          }
+        }
+      ],
+      "dependencies": [
+        "@apidevtools/swagger-parser",
+        "@playwright/test",
+        "prettier"
+      ],
+      "workflows": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/container.yml"
+      ],
+      "tests": [
+        "test/api.test.mjs",
+        "test/browser.mjs"
+      ],
+      "screenshots": [
+        "docs/screenshots/yanglaunch-desktop.png",
+        "docs/screenshots/yanglaunch-mobile.png",
+        "docs/screenshots/yangminutes-desktop.png",
+        "docs/screenshots/yangminutes-mobile.png",
+        "docs/screenshots/yangspec-desktop.png",
+        "docs/screenshots/yangspec-mobile.png"
+      ],
+      "notices": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "deployment": [
+        "Dockerfile",
+        "compose.yaml"
+      ],
+      "database_files": [],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "DTDD",
+      "source_url": "https://github.com/nguyenhonggiang2407/DTDD",
+      "commit": "fd23028a2088100a7695af2ab5f40b8d22dafb3b",
+      "branch": "main",
+      "tracked_files": 39,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [
+        "https://giang-yangcareer.onrender.com/app/"
+      ],
+      "readme_commands": [
+        "git clone https://github.com/nguyenhonggiang2407/DTDD.git\r\ncd DTDD\r\npython -m venv .venv\r\n# Windows: .venv\\Scripts\\activate\r\n# macOS/Linux: source .venv/bin/activate\r\npython -m pip install -r requirements.txt\r\npython main.py",
+        "python -m pip install -r requirements-ai.txt",
+        "python -m unittest discover -s tests -v\r\npython -m compileall -q api main.py tests\r\nnode --check frontend/app.js",
+        "npm install\r\nnpx playwright install chromium\r\nnpm run test:ui"
+      ],
+      "manifests": [
+        "package.json",
+        "requirements-ai.txt",
+        "requirements.txt"
+      ],
+      "packages": [
+        {
+          "path": "package.json",
+          "scripts": {
+            "test:ui": "playwright test"
+          },
+          "engines": {}
+        }
+      ],
+      "dependencies": [
+        "@playwright/test",
+        "-r requirements.txt",
+        "langchain==0.3.27",
+        "langchain-core==0.3.76",
+        "langchain-community==0.3.30",
+        "langchain-text-splitters==0.3.11",
+        "langchain-chroma==0.2.6",
+        "langchain-google-genai==2.0.10",
+        "chromadb==1.1.0",
+        "pydantic==2.11.9",
+        "pydantic-settings==2.11.0",
+        "python-dotenv==1.1.1",
+        "underthesea==8.3.0",
+        "underthesea_core==1.0.5",
+        "numpy==2.2.6",
+        "pandas==2.3.3",
+        "scikit-learn==1.7.2",
+        "scipy==1.15.3",
+        "tqdm==4.67.1",
+        "pdfminer.six==20250506",
+        "pdfplumber==0.11.7",
+        "pypdf==6.1.1",
+        "docx2txt==0.9",
+        "fastapi==0.117.1",
+        "uvicorn==0.37.0",
+        "httpx==0.28.1",
+        "requests==2.32.5",
+        "aiohttp==3.12.15",
+        "tenacity==9.1.2",
+        "orjson==3.11.3",
+        "python-multipart==0.0.20",
+        "rich==14.1.0",
+        "tiktoken==0.11.0",
+        "PyYAML==6.0.3",
+        "python-dateutil==2.9.0.post0"
+      ],
+      "workflows": [
+        ".github/workflows/checks.yml"
+      ],
+      "tests": [
+        "tests/test_api.py",
+        "tests/ui.spec.cjs"
+      ],
+      "screenshots": [
+        "docs/screenshots/desktop.png",
+        "docs/screenshots/mobile.png"
+      ],
+      "notices": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "deployment": [
+        ".env.example",
+        "render.yaml"
+      ],
+      "database_files": [],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "YangHomestay",
+      "source_url": "https://github.com/nguyenhonggiang2407/YangHomestay",
+      "commit": "bf649b5dc0e9f8076148e7967994aa2172655015",
+      "branch": "main",
+      "tracked_files": 238,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [
+        "https://yanghomestay.helioho.st/"
+      ],
+      "readme_commands": [
+        "Copy-Item backend/config.supabase.example.php backend/config.supabase.local.php\r\n& C:\\xampp\\php\\php.exe backend/tests/test-pricing.php",
+        "php backend/tests/test-pricing.php\r\nphp backend/tests/test-availability.php\r\nphp backend/tests/test-rbac.php"
+      ],
+      "manifests": [],
+      "packages": [],
+      "dependencies": [],
+      "workflows": [],
+      "tests": [
+        "backend/tests/concurrency-test.php",
+        "backend/tests/live-test.php",
+        "backend/tests/run-concurrency.sh",
+        "backend/tests/test-availability.php",
+        "backend/tests/test-pricing.php",
+        "backend/tests/test-rbac.php"
+      ],
+      "screenshots": [
+        "docs/screenshots/home-desktop.jpg",
+        "docs/screenshots/home-mobile.jpg",
+        "docs/screenshots/search-desktop.jpg",
+        "docs/screenshots/search-mobile.jpg",
+        "docs/screenshots/unit-detail-desktop.jpg",
+        "docs/screenshots/unit-detail-mobile.jpg"
+      ],
+      "notices": [
+        "docs/image-sources.md"
+      ],
+      "deployment": [],
+      "database_files": [
+        "database/supabase/001_schema.sql",
+        "database/yang_homestay_schema.sql"
+      ],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "YangLingo",
+      "source_url": "https://github.com/nguyenhonggiang2407/YangLingo",
+      "commit": "4e9777e892e9fc2b7bc564a51a2b4637f5c24f53",
+      "branch": "main",
+      "tracked_files": 239,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [
+        "https://yangcute.helioho.st/"
+      ],
+      "readme_commands": [
+        "php tests/srs_test.php\r\nphp tests/adaptive_test.php\r\nphp tests/importer_test.php\r\nphp tests/migration_integrity_test.php\r\nnode --check assets/app.js\r\nnode tests/learning_ux_test.cjs\r\nnode tests/pronunciation_ux_test.cjs\r\nnode tests/notebook_navigation_test.cjs\r\nnode tests/practice_state_test.cjs"
+      ],
+      "manifests": [],
+      "packages": [],
+      "dependencies": [],
+      "workflows": [],
+      "tests": [
+        "tests/adaptive_test.php",
+        "tests/aptis_adaptive_test.php",
+        "tests/aptis_productive_test.php",
+        "tests/card_details_test.cjs",
+        "tests/card_notebook_test.cjs",
+        "tests/card_type_preservation_test.php",
+        "tests/daily_essentials_book_test.php",
+        "tests/daily_essentials_install_test.php",
+        "tests/daily_essentials_install_worker.php",
+        "tests/daily_plan_test.php",
+        "tests/daily_plan_toeic_test.php",
+        "tests/data_quality_test.php",
+        "tests/db_check_security_test.php",
+        "tests/db_integration_test.php",
+        "tests/everyday_english_book_test.php",
+        "tests/handbooks_test.php",
+        "tests/helen_flashbook_test.php",
+        "tests/helen_part1_vocab_test.php",
+        "tests/importer_test.php",
+        "tests/irregular_verbs_test.php",
+        "tests/learning_system_test.php",
+        "tests/learning_ux_test.cjs",
+        "tests/legacy_flashbook_identity_test.php",
+        "tests/lesson_full_session_test.php",
+        "tests/library_flashbook_sync_test.php",
+        "tests/mastery_test.php",
+        "tests/migration_integrity_test.php",
+        "tests/mistake_book_test.php",
+        "tests/notebook_api_retry_test.cjs",
+        "tests/notebook_guide_search_test.cjs",
+        "tests/notebook_integration_test.php",
+        "tests/notebook_navigation_test.cjs",
+        "tests/notebook_save_test.cjs",
+        "tests/pdf_flashbooks_test.php",
+        "tests/practice_notebook_test.cjs",
+        "tests/practice_state_test.cjs",
+        "tests/pronunciation_ux_test.cjs",
+        "tests/security_test.php",
+        "tests/seed_audit_test.php",
+        "tests/sentence_patterns_test.php",
+        "tests/srs_test.php",
+        "tests/static_audit.php",
+        "tests/student_life_work_book_test.php",
+        "tests/toeic_seed_test.php",
+        "tests/toeic_test.php",
+        "tests/ui_quality_test.php",
+        "tests/verb_section_books_test.php",
+        "tests/web_english_book_test.php",
+        "tests/web_english_install_test.php",
+        "tests/web_english_install_worker.php",
+        "tests/web_english_loader_fixture_worker.php"
+      ],
+      "screenshots": [
+        "docs/screenshots/home-desktop.png",
+        "docs/screenshots/home-mobile.png"
+      ],
+      "notices": [
+        "LICENSE",
+        "assets/flashbooks/english-for-web-a2-b1/LICENSE.original.txt"
+      ],
+      "deployment": [],
+      "database_files": [
+        "database/migrations/001_auth_login_throttle.sql",
+        "database/migrations/002_mistake_book.sql",
+        "database/migrations/003_learning_content_types.sql",
+        "database/migrations/004_mistake_book_v2.sql",
+        "database/migrations/005_personalized_learning_toeic.sql",
+        "database/migrations/006_taxonomies_and_toeic_seed.sql",
+        "database/migrations/007_toeic_part1_7_starter_and_connected_speech.sql",
+        "database/migrations/008_sentence_pattern_library.sql",
+        "database/migrations/009_toeic_vocabulary_expansion.sql",
+        "database/migrations/011_adaptive_learning_schema.sql",
+        "database/migrations/012_knowledge_remediation.sql",
+        "database/migrations/013_toeic_800_handbooks.sql",
+        "database/migrations/014_flashcard_book_section_titles.sql",
+        "database/migrations/015_flashbook_source_type_capacity.sql",
+        "database/migrations/016_learning_notebook.sql",
+        "database/schema.sql"
+      ],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "YangLocal",
+      "source_url": "https://github.com/nguyenhonggiang2407/YangLocal",
+      "commit": "5e38ff88bc12fd3b8e5d378a9293d178039cbf1d",
+      "branch": "main",
+      "tracked_files": 3854,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [
+        "https://nguyenhonggiangcute.helioho.st/"
+      ],
+      "readme_commands": [],
+      "manifests": [
+        "wp-content/themes/twentytwentyfive/package.json"
+      ],
+      "packages": [
+        {
+          "path": "wp-content/themes/twentytwentyfive/package.json",
+          "scripts": {
+            "build": "postcss style.css --use cssnano -o style.min.css --no-map",
+            "watch": "postcss style.css --use cssnano -o style.min.css --no-map --watch"
+          },
+          "engines": {
+            "node": ">=20.10.0",
+            "npm": ">=10.2.3"
+          }
+        }
+      ],
+      "dependencies": [
+        "@wordpress/browserslist-config",
+        "postcss",
+        "postcss-cli",
+        "cssnano"
+      ],
+      "workflows": [],
+      "tests": [],
+      "screenshots": [
+        "docs/screenshots/home-desktop.png",
+        "docs/screenshots/home-mobile.png",
+        "wp-content/themes/twentytwentyfive/screenshot.png",
+        "wp-content/themes/twentytwentyfour/screenshot.png",
+        "wp-content/themes/twentytwentythree/screenshot.png"
+      ],
+      "notices": [
+        "docs/source-notice.md",
+        "license.txt",
+        "wp-content/plugins/akismet/LICENSE.txt",
+        "wp-content/plugins/akismet/views/notice.php",
+        "wp-content/themes/twentytwentyfour/assets/fonts/cardo/LICENSE.txt",
+        "wp-content/themes/twentytwentyfour/assets/fonts/inter/LICENSE.txt",
+        "wp-content/themes/twentytwentythree/assets/fonts/dm-sans/LICENSE.txt",
+        "wp-content/themes/twentytwentythree/assets/fonts/inter/LICENSE.txt",
+        "wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/LICENSE.md"
+      ],
+      "deployment": [],
+      "database_files": [],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "FORME",
+      "source_url": "https://github.com/nguyenhonggiang2407/FORME",
+      "commit": "c7a456d4cbfa5b203f787a1adb196cca373b22b1",
+      "branch": "main",
+      "tracked_files": 39,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [
+        "https://nguyenhonggiang2407.github.io/FORME/"
+      ],
+      "readme_commands": [
+        "npm run dev",
+        "npm run check\r\nnpm test"
+      ],
+      "manifests": [
+        "package.json"
+      ],
+      "packages": [
+        {
+          "path": "package.json",
+          "scripts": {
+            "dev": "node tools/serve.mjs",
+            "check": "node --check dist/app.js && node --check dist/domain.js && node tools/check.mjs",
+            "test": "node --test tests/*.test.mjs"
+          },
+          "engines": {
+            "node": ">=20"
+          }
+        }
+      ],
+      "dependencies": [],
+      "workflows": [
+        ".github/workflows/pages.yml"
+      ],
+      "tests": [
+        "tests/domain.test.mjs"
+      ],
+      "screenshots": [],
+      "notices": [
+        "docs/ATTRIBUTION.md"
+      ],
+      "deployment": [],
+      "database_files": [],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "YangAtlas",
+      "source_url": "https://github.com/nguyenhonggiang2407/YangAtlas",
+      "commit": "1631c1dca54ed7cd2319886ce1d119f435059c62",
+      "branch": "main",
+      "tracked_files": 70,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [
+        "https://nguyenhonggiang2407.github.io/YangAtlas/"
+      ],
+      "readme_commands": [
+        "npm ci\nnpm run dev",
+        "npm run check\nnpm test\nnpm run assets:check\nnpm run build\nnpx playwright install chromium\nnpm run test:browser"
+      ],
+      "manifests": [
+        "package.json"
+      ],
+      "packages": [
+        {
+          "path": "package.json",
+          "scripts": {
+            "dev": "node scripts/serve.mjs",
+            "build": "node scripts/build.mjs",
+            "test": "node --test tests/*.test.js",
+            "test:browser": "node --test tests/e2e/*.mjs",
+            "assets:check": "node scripts/check-assets.mjs",
+            "check": "node --check src/app.js && node --check src/domain.js && node --check src/catalog.js && node --check src/offline.js && node --check public/service-worker.js && node --check scripts/build.mjs",
+            "preview": "node scripts/serve.mjs --dist"
+          },
+          "engines": {
+            "node": ">=24"
+          }
+        }
+      ],
+      "dependencies": [
+        "@playwright/test"
+      ],
+      "workflows": [
+        ".github/workflows/pages.yml"
+      ],
+      "tests": [
+        "tests/domain.test.js",
+        "tests/e2e/browser.mjs",
+        "tests/e2e/product.mjs",
+        "tests/e2e/reuse.mjs",
+        "tests/offline.test.js"
+      ],
+      "screenshots": [
+        "docs/screenshots/itinerary-desktop.png",
+        "docs/screenshots/itinerary-mobile.png",
+        "docs/screenshots/personal-checklist.png",
+        "docs/screenshots/personal-desktop.png",
+        "docs/screenshots/personal-expenses.png",
+        "docs/screenshots/personal-mobile.png",
+        "docs/screenshots/reuse-dialog-desktop.png",
+        "docs/screenshots/reuse-dialog-mobile.png",
+        "docs/screenshots/reused-checklist-mobile.png",
+        "docs/screenshots/reused-day90-mobile.png",
+        "docs/screenshots/reused-plan-desktop.png",
+        "docs/screenshots/reused-plan-mobile.png",
+        "docs/screenshots/reused-plan-offline-desktop.png"
+      ],
+      "notices": [
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md",
+        "docs/MEDIA.md"
+      ],
+      "deployment": [],
+      "database_files": [],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "St4",
+      "source_url": "https://github.com/nguyenhonggiang2407/St4",
+      "commit": "bfa1a2e23806f1500edb623e20bc93568de30157",
+      "branch": "main",
+      "tracked_files": 5,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [],
+      "readme_commands": [
+        "python -m http.server 8080 --bind 127.0.0.1"
+      ],
+      "manifests": [],
+      "packages": [],
+      "dependencies": [],
+      "workflows": [],
+      "tests": [],
+      "screenshots": [
+        "docs/screenshots/ui-study-desktop.png",
+        "docs/screenshots/ui-study-mobile.png"
+      ],
+      "notices": [],
+      "deployment": [],
+      "database_files": [],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "Yang",
+      "source_url": "https://github.com/nguyenhonggiang2407/Yang",
+      "commit": "3078d5d6c31fa48eb1b9217f422d88a9d19176d1",
+      "branch": "master",
+      "tracked_files": 28,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [],
+      "readme_commands": [
+        "javac -encoding UTF-8 -d out src/mychatapplication/MyChatApplication.java src/Chat/ServerSocket.java src/Chat/Chat_Server.java src/Chat/Chat_Client.java\r\njava -cp out Chat.Chat_Server\r\n# Mở terminal thứ hai:\r\njava -cp out Chat.Chat_Client"
+      ],
+      "manifests": [
+        "build.xml"
+      ],
+      "packages": [],
+      "dependencies": [],
+      "workflows": [],
+      "tests": [],
+      "screenshots": [],
+      "notices": [],
+      "deployment": [],
+      "database_files": [],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "Doanwebbangiayphp",
+      "source_url": "https://github.com/nguyenhonggiang2407/Doanwebbangiayphp",
+      "commit": "15382128f9abc0aaef2d1e289f8a0a0c077a401e",
+      "branch": "master",
+      "tracked_files": 170,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [],
+      "readme_commands": [],
+      "manifests": [],
+      "packages": [],
+      "dependencies": [],
+      "workflows": [],
+      "tests": [],
+      "screenshots": [],
+      "notices": [],
+      "deployment": [],
+      "database_files": [],
+      "execution_status": "UNVERIFIED"
+    },
+    {
+      "name": "nguyenhonggiang2407",
+      "source_url": "https://github.com/nguyenhonggiang2407/nguyenhonggiang2407",
+      "commit": "3d02566d35ab4d55cb8e719e0e0f5d79c4e7a3aa",
+      "branch": "codex/T01-portfolio-inventory",
+      "tracked_files": 25,
+      "instructions": [],
+      "readme": "README.md",
+      "readme_demo_urls": [
+        "https://runwaystudio-portfolio-demo.onrender.com",
+        "https://yangrent-portfolio-demo.onrender.com/",
+        "https://giang-campusdesk.onrender.com",
+        "https://yanghomestay.helioho.st/"
+      ],
+      "readme_commands": [],
+      "manifests": [],
+      "packages": [],
+      "dependencies": [],
+      "workflows": [
+        ".github/workflows/profile-stats.yml"
+      ],
+      "tests": [],
+      "screenshots": [
+        "assets/screenshots/yanghomestay-desktop.jpg",
+        "assets/screenshots/yanghomestay-mobile.jpg"
+      ],
+      "notices": [],
+      "deployment": [],
+      "database_files": [],
+      "execution_status": "UNVERIFIED"
+    }
+  ]
+}

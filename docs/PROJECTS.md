@@ -26,6 +26,8 @@ YangSlots, YangDocs, YangQueue, YangData, YangHooks and YangLab were extracted f
 
 Open each repository for its own setup instructions, deployment links, media sources and verification record. Screenshots and recorded test results describe the documented environment and revision, not continuous availability.
 
+Current cross-repository evidence: [source audit](PORTFOLIO_AUDIT.md) and [demo registry](DEMO_REGISTRY.md). The registry distinguishes fresh HTTP/browser results from README declarations and local-only projects.
+
 ## Earlier work and coursework
 
 | Repository | Context |
