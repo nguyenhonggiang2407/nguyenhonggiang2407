@@ -1,0 +1,215 @@
+{
+  "sites": [
+    {
+      "repository": "RunwayStudio",
+      "title": "Runway Studio",
+      "ready": "h1",
+      "health": {
+        "path": "/actuator/health/readiness",
+        "json": {
+          "path": "status",
+          "equals": "UP"
+        },
+        "scope": "Spring readiness endpoint; not proof of checkout correctness"
+      },
+      "navigation": [
+        {
+          "name": "Storefront catalog",
+          "click": "nav a[href=\"/shop\"]",
+          "expect": "h1",
+          "text": "Bắt đầu từ một món đồ."
+        }
+      ],
+      "url": "https://runwaystudio-portfolio-demo.onrender.com",
+      "source_commit": "2a4d31bd566d77e16f1edde3c043182ed3816997"
+    },
+    {
+      "repository": "YangRent",
+      "title": "YangRent",
+      "health": {
+        "path": "/api/health",
+        "json": {
+          "path": "data.status",
+          "equals": "ok"
+        },
+        "scope": "Process; demo mode also executes SELECT 1. No concurrency proof"
+      },
+      "navigation": [
+        {
+          "name": "Room search",
+          "path": "/rooms",
+          "expect": "h1",
+          "text": "Khám phá chỗ ở"
+        },
+        {
+          "name": "Photo credits",
+          "path": "/photo-credits",
+          "expect": "h1",
+          "text": "Những không gian"
+        }
+      ],
+      "url": "https://yangrent-portfolio-demo.onrender.com/",
+      "source_commit": "dea86a322f7d2ab27d35e1e4c7f502fdf5230fc7"
+    },
+    {
+      "repository": "CampusDesk",
+      "title": "CampusDesk",
+      "ready": "h2",
+      "health": {
+        "path": "/api/health",
+        "json": {
+          "path": "status",
+          "equals": "ok"
+        },
+        "scope": "Process + SELECT 1"
+      },
+      "navigation": [
+        {
+          "name": "Registration form (no submission)",
+          "click": "button.login-switch",
+          "expect": "input[autocomplete=\"name\"]"
+        }
+      ],
+      "url": "https://giang-campusdesk.onrender.com",
+      "source_commit": "289c9cd1083f1e380675d6834bc7b9be38ab9044"
+    },
+    {
+      "repository": "ApplyFlow",
+      "title": "ApplyFlow",
+      "ready": ".auth-card h2",
+      "health": {
+        "path": "/api/health",
+        "json": {
+          "path": "status",
+          "equals": "ok"
+        },
+        "scope": "Process + SELECT 1"
+      },
+      "navigation": [
+        {
+          "name": "Registration form (no submission)",
+          "click": ".auth-tabs button:has-text(\"Tạo tài khoản\")",
+          "expect": "input[autocomplete=\"name\"]"
+        }
+      ],
+      "url": "https://giang-applyflow.onrender.com",
+      "source_commit": "e9c02b1575fa7f3574c93dce116628abd0319531"
+    },
+    {
+      "repository": "PocketLedger",
+      "title": "PocketLedger",
+      "ready": "h1",
+      "health": {
+        "path": "/api/health",
+        "json": {
+          "path": "ok",
+          "equals": true
+        },
+        "scope": "Process + SELECT 1"
+      },
+      "navigation": [
+        {
+          "name": "Registration form (no submission)",
+          "click": ".auth-tabs button:has-text(\"Create account\")",
+          "expect": "input[name=\"name\"]"
+        }
+      ],
+      "url": "https://giang-pocketledger.onrender.com",
+      "source_commit": "d51f4ae06c75832c8edbb549b02b67d34ec8c7b1"
+    },
+    {
+      "repository": "DTDD",
+      "title": "YangCareer",
+      "health": {
+        "path": "/health",
+        "json": {
+          "path": "status",
+          "equals": "ok"
+        },
+        "scope": "Process + SQLite SELECT 1; no paid AI request"
+      },
+      "navigation": [
+        {
+          "name": "About and source credits",
+          "click": "a[data-view=\"about\"]",
+          "expect": "#view-about",
+          "text": "TalentBridge"
+        }
+      ],
+      "url": "https://giang-yangcareer.onrender.com/app/",
+      "source_commit": "fd23028a2088100a7695af2ab5f40b8d22dafb3b"
+    },
+    {
+      "repository": "YangHomestay",
+      "title": "YangHomestay",
+      "ready": "h1",
+      "navigation": [
+        {
+          "name": "Public accommodation search",
+          "path": "/customer/homestays.html",
+          "expect": "h1"
+        }
+      ],
+      "url": "https://yanghomestay.helioho.st/",
+      "source_commit": "bf649b5dc0e9f8076148e7967994aa2172655015"
+    },
+    {
+      "repository": "YangLingo",
+      "title": "YangLingo",
+      "ready": "#auth-screen h2",
+      "navigation": [
+        {
+          "name": "Registration form (no submission)",
+          "click": "button[data-auth=\"register\"]",
+          "expect": "#register-form input[name=\"name\"]"
+        }
+      ],
+      "url": "https://yangcute.helioho.st/",
+      "source_commit": "4e9777e892e9fc2b7bc564a51a2b4637f5c24f53"
+    },
+    {
+      "repository": "YangLocal",
+      "title": "YangLocal",
+      "ready": "h1",
+      "navigation": [
+        {
+          "name": "Public places directory",
+          "path": "/kham-pha/",
+          "expect": "h1"
+        }
+      ],
+      "url": "https://nguyenhonggiangcute.helioho.st/",
+      "source_commit": "5e38ff88bc12fd3b8e5d378a9293d178039cbf1d"
+    },
+    {
+      "repository": "FORME",
+      "title": "FORME",
+      "ready": "h1",
+      "navigation": [
+        {
+          "name": "Wardrobe navigation",
+          "click": "nav a[href=\"#wardrobe\"]",
+          "expect": "main",
+          "hash": "#wardrobe"
+        }
+      ],
+      "url": "https://nguyenhonggiang2407.github.io/FORME/",
+      "source_commit": "c7a456d4cbfa5b203f787a1adb196cca373b22b1"
+    },
+    {
+      "repository": "YangAtlas",
+      "title": "YangAtlas",
+      "ready": "h1",
+      "navigation": [
+        {
+          "name": "Media and source information",
+          "click": "button[data-action=\"about\"]",
+          "expect": "dialog#atlas-dialog[open]",
+          "text": "Một nơi cho những dự định"
+        }
+      ],
+      "url": "https://nguyenhonggiang2407.github.io/YangAtlas/",
+      "source_commit": "1631c1dca54ed7cd2319886ce1d119f435059c62"
+    }
+  ]
+}

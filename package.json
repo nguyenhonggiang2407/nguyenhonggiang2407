@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-verification",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "test": "node --test scripts/*.test.mjs",
+    "smoke": "node scripts/check-demos.mjs",
+    "smoke:http": "node scripts/check-demos.mjs --http-only"
+  },
+  "devDependencies": { "playwright": "1.64.1" }
+}
