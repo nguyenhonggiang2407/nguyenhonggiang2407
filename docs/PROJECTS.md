@@ -1,6 +1,6 @@
 # More projects and source history
 
-The [profile README](../README.md#featured-projects) prioritizes **RunwayStudio → YangSlots → YangRent → CampusDesk → YangHomestay → YangHooks** for Java Backend / Full-stack internship applications. The projects below provide additional context without replacing those six entry points.
+The [profile README](../README.md#java-backend-projects) starts with RunwayStudio and YangSlots for Java Backend / Full-stack internship applications. This catalog covers the other projects, coursework, and source history.
 
 ## Backend companions
 
