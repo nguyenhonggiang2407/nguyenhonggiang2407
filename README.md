@@ -4,7 +4,7 @@
 
 I’m an IT student looking for a part-time internship. I work with Java 17, Spring Boot, REST APIs, and SQL, with a focus on transactions, concurrent requests, and access control.
 
-[Email](mailto:nguyenhonggiang.profile@gmail.com) · [Java projects](#java-backend-projects) · [Full-stack projects](#full-stack-and-integration-projects) · [Project catalog](docs/PROJECTS.md)
+[Email](mailto:nguyenhonggiang.profile@gmail.com) · [5-minute review](docs/REVIEW.md) · [Java projects](#java-backend-projects) · [Project catalog](docs/PROJECTS.md)
 
 ## Java backend projects
 
@@ -12,9 +12,9 @@ I’m an IT student looking for a part-time internship. I work with Java 17, Spr
 
 **Stack** · Java 17 · Spring Boot · JPA · Flyway · MySQL
 
-Checkout locks inventory rows and commits the order, stock changes, and order history in one transaction. MySQL tests cover two buyers competing for the last item, retries, and stock restoration after cancellation.
+Checkout locks inventory rows and commits the order, stock changes, and order history in one transaction. MySQL tests cover ten buyers competing for the last item, retries, and stock restoration after cancellation.
 
-[Checkout walkthrough](https://github.com/nguyenhonggiang2407/RunwayStudio/blob/main/docs/ARCHITECTURE.md#checkout-đường-đọc-mã-và-bằng-chứng) · [MySQL tests](https://github.com/nguyenhonggiang2407/RunwayStudio/blob/main/src/test/java/vn/runway/store/MySqlAcceptanceIT.java) · [CI](https://github.com/nguyenhonggiang2407/RunwayStudio/actions/workflows/ci.yml) · [Hosted demo](https://runwaystudio-portfolio-demo.onrender.com/) · [Screenshot](https://raw.githubusercontent.com/nguyenhonggiang2407/RunwayStudio/main/docs/screenshots/home-desktop-1440.png)
+[Checkout walkthrough](https://github.com/nguyenhonggiang2407/RunwayStudio/blob/main/docs/ARCHITECTURE.md#checkout-đường-đọc-mã-và-bằng-chứng) · [MySQL tests](https://github.com/nguyenhonggiang2407/RunwayStudio/blob/main/src/test/java/vn/runway/store/MySqlAcceptanceIT.java) · [CI](https://github.com/nguyenhonggiang2407/RunwayStudio/actions/workflows/ci.yml) · [Local setup](https://github.com/nguyenhonggiang2407/RunwayStudio#readme) · [Screenshot](https://raw.githubusercontent.com/nguyenhonggiang2407/RunwayStudio/main/docs/screenshots/home-desktop-1440.png)
 
 ### [YangSlots](https://github.com/nguyenhonggiang2407/YangSlots) · Resource booking
 
