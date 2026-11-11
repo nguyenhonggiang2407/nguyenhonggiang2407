@@ -17,10 +17,10 @@ YangSlots, YangDocs, YangQueue, YangData, YangHooks and YangLab were extracted f
 
 | Repository | Scope |
 | --- | --- |
-| [YangAtlas](https://github.com/nguyenhonggiang2407/YangAtlas) | Browser-based travel planner with reusable trips, offline itineraries, expenses and JSON/CSV/ICS export. |
-| [FORME](https://github.com/nguyenhonggiang2407/FORME) | Browser-local wardrobe, outfit builder, weekly planner and packing list. |
-| [ApplyFlow](https://github.com/nguyenhonggiang2407/ApplyFlow) | React, TypeScript, Express and SQLite internship application tracker. |
-| [PocketLedger](https://github.com/nguyenhonggiang2407/PocketLedger) | React, TypeScript, Express and SQLite personal budgeting application. |
+| [YangAtlas](https://github.com/nguyenhonggiang2407/YangAtlas) | Browser-based travel planner with reusable trips, offline itineraries, expenses and JSON/CSV/ICS export. [Open demo](https://nguyenhonggiang2407.github.io/YangAtlas/) |
+| [FORME](https://github.com/nguyenhonggiang2407/FORME) | Browser-local wardrobe, outfit builder, weekly planner and packing list. [Open demo](https://nguyenhonggiang2407.github.io/FORME/) |
+| [ApplyFlow](https://github.com/nguyenhonggiang2407/ApplyFlow) | React, TypeScript, Express and SQLite internship application tracker. [Open demo](https://giang-applyflow.onrender.com) |
+| [PocketLedger](https://github.com/nguyenhonggiang2407/PocketLedger) | React, TypeScript, Express and SQLite personal budgeting application. [Open demo](https://giang-pocketledger.onrender.com) |
 | [YangLingo](https://github.com/nguyenhonggiang2407/YangLingo) | PHP/MySQL vocabulary, spaced review and practice workspace. |
 | [YangLocal](https://github.com/nguyenhonggiang2407/YangLocal) | Hanoi city-guide study with a WordPress theme and plugin; fictional demo data. |
 
