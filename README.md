@@ -4,7 +4,7 @@
 
 I’m an IT student looking for a part-time internship. I work with Java 17, Spring Boot, REST APIs, and SQL, with a focus on transactions, concurrent requests, and access control.
 
-[Email](mailto:nguyenhonggiang.profile@gmail.com) · [5-minute review](docs/REVIEW.md) · [Java projects](#java-backend-projects) · [Project catalog](docs/PROJECTS.md)
+[Email](mailto:nguyenhonggiang.profile@gmail.com) · [5-minute review](docs/REVIEW.md) · [Selected engineering changes](docs/REVIEW.md#selected-engineering-changes) · [Project catalog](docs/PROJECTS.md)
 
 ## Java backend projects
 
@@ -14,7 +14,7 @@ I’m an IT student looking for a part-time internship. I work with Java 17, Spr
 
 Checkout locks inventory rows and commits the order, stock changes, and order history in one transaction. MySQL tests cover ten buyers competing for the last item, retries, and stock restoration after cancellation.
 
-[Checkout walkthrough](https://github.com/nguyenhonggiang2407/RunwayStudio/blob/main/docs/ARCHITECTURE.md#checkout-đường-đọc-mã-và-bằng-chứng) · [MySQL tests](https://github.com/nguyenhonggiang2407/RunwayStudio/blob/main/src/test/java/vn/runway/store/MySqlAcceptanceIT.java) · [CI](https://github.com/nguyenhonggiang2407/RunwayStudio/actions/workflows/ci.yml) · [Local setup](https://github.com/nguyenhonggiang2407/RunwayStudio#readme) · [Screenshot](https://raw.githubusercontent.com/nguyenhonggiang2407/RunwayStudio/main/docs/screenshots/home-desktop-1440.png)
+[Screenshot](https://raw.githubusercontent.com/nguyenhonggiang2407/RunwayStudio/main/docs/screenshots/home-desktop-1440.png) · [Local setup and demo](docs/REVIEW.md#runwaystudio-checkout) · [Checkout walkthrough](https://github.com/nguyenhonggiang2407/RunwayStudio/blob/main/docs/ARCHITECTURE.md#checkout-đường-đọc-mã-và-bằng-chứng) · [MySQL tests](https://github.com/nguyenhonggiang2407/RunwayStudio/blob/main/src/test/java/vn/runway/store/MySqlAcceptanceIT.java) · [CI](https://github.com/nguyenhonggiang2407/RunwayStudio/actions/workflows/ci.yml)
 
 ### [YangSlots](https://github.com/nguyenhonggiang2407/YangSlots) · Resource booking
 
@@ -22,7 +22,7 @@ Checkout locks inventory rows and commits the order, stock changes, and order hi
 
 A five-minute hold reserves capacity before confirmation. The backend checks peak usage across overlapping reservations. Tests cover competing requests, expired holds, and retries.
 
-[Local setup](https://github.com/nguyenhonggiang2407/YangSlots#readme) · [Booking service](https://github.com/nguyenhonggiang2407/YangSlots/blob/main/src/main/java/vn/yang/slots/BookingService.java) · [Reservation tests](https://github.com/nguyenhonggiang2407/YangSlots/blob/main/src/test/java/vn/yang/slots/ReservationsTest.java) · [CI](https://github.com/nguyenhonggiang2407/YangSlots/actions/workflows/ci.yml)
+[Sample booking and local setup](docs/REVIEW.md#yangslots-booking) · [Booking service](https://github.com/nguyenhonggiang2407/YangSlots/blob/main/src/main/java/vn/yang/slots/BookingService.java) · [Reservation tests](https://github.com/nguyenhonggiang2407/YangSlots/blob/main/src/test/java/vn/yang/slots/ReservationsTest.java) · [CI](https://github.com/nguyenhonggiang2407/YangSlots/actions/workflows/ci.yml)
 
 [![YangSlots reservation dialog with hold expiry and confirmation controls](https://raw.githubusercontent.com/nguyenhonggiang2407/YangSlots/main/docs/screenshots/hold.png)](https://github.com/nguyenhonggiang2407/YangSlots#readme)
 
