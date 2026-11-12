@@ -1,6 +1,6 @@
 {
   "owner": "nguyenhonggiang2407",
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "repositories": [
     {
       "name": "ApplyFlow",
@@ -15,7 +15,7 @@
       "name": "CampusDesk",
       "language": "TypeScript",
       "homepage": "https://giang-campusdesk.onrender.com",
-      "size": 843,
+      "size": 1234,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/CampusDesk"
@@ -51,7 +51,7 @@
       "name": "nguyenhonggiang2407",
       "language": "JavaScript",
       "homepage": null,
-      "size": 1502,
+      "size": 1506,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/nguyenhonggiang2407"
@@ -69,7 +69,7 @@
       "name": "RunwayStudio",
       "language": "Java",
       "homepage": "https://runwaystudio-portfolio-demo.onrender.com",
-      "size": 57808,
+      "size": 59599,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/RunwayStudio"
@@ -177,7 +177,7 @@
       "name": "YangRent",
       "language": "JavaScript",
       "homepage": "https://yangrent-portfolio-demo.onrender.com/",
-      "size": 4502,
+      "size": 4897,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/YangRent"
@@ -186,7 +186,7 @@
       "name": "YangSlots",
       "language": "Java",
       "homepage": null,
-      "size": 3108,
+      "size": 4696,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/YangSlots"
