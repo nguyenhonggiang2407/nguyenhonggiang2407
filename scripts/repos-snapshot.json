@@ -1,6 +1,6 @@
 {
   "owner": "nguyenhonggiang2407",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "repositories": [
     {
       "name": "ApplyFlow",
@@ -60,7 +60,7 @@
       "name": "nguyenhonggiang2407",
       "language": "JavaScript",
       "homepage": null,
-      "size": 1529,
+      "size": 1531,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/nguyenhonggiang2407"
@@ -78,7 +78,7 @@
       "name": "RunwayStudio",
       "language": "Java",
       "homepage": "https://runwaystudio-portfolio-demo.onrender.com",
-      "size": 59613,
+      "size": 59615,
       "fork": false,
       "private": false,
       "html_url": "https://github.com/nguyenhonggiang2407/RunwayStudio"
