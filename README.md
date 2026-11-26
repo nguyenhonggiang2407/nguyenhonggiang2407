@@ -6,7 +6,7 @@
 
 I'm an IT student in **Hanoi, Vietnam**, seeking a **part-time Java Backend / Full-stack internship**. I work with **Java 17, Spring Boot, REST APIs, and SQL**.
 
-**YangHomestay** is my main project. **RunwayStudio** and **YangSlots** show how I work with checkout and reservation transactions in Java.
+**YangHomestay** is my main project, with a Java booking backend currently under review. **RunwayStudio** and **YangSlots** also show how I work with checkout and reservation transactions.
 
 [Email](mailto:nguyenhonggiang.profile@gmail.com) · [Featured projects](#featured-projects) · [More projects](docs/PROJECTS.md)
 
@@ -14,11 +14,15 @@ I'm an IT student in **Hanoi, Vietnam**, seeking a **part-time Java Backend / Fu
 
 ### 1. YangHomestay
 
-Hanoi homestay booking with availability by date, server-side pricing, and booking history. PostgreSQL locks the unit when accepting a booking, rechecks availability, and stores the price of each night at the time of booking.
+Hanoi homestay booking. The Java implementation uses a Spring Boot customer API with the existing HTML/CSS/JavaScript interface. PostgreSQL locks the unit when accepting a booking, rechecks availability, and stores the price of each night at the time of booking.
 
-PHP · JavaScript · Supabase PostgreSQL
+With stay dates, YangMatch checks availability, guest capacity, and nightly prices before ranking matching stays. Favorites belong to the signed-in customer; repeating an add request does not create a duplicate.
 
-[Repository](https://github.com/nguyenhonggiang2407/YangHomestay) · [Booking walkthrough](https://github.com/nguyenhonggiang2407/YangHomestay/blob/main/docs/architecture.md) · [Verification and limits](https://github.com/nguyenhonggiang2407/YangHomestay/blob/main/docs/verification.md) · [Demo](https://yanghomestay.helioho.st/)
+Java 17 · Spring Boot · Spring Security · Spring JDBC · PostgreSQL · Docker · HTML/CSS/JavaScript
+
+[Repository](https://github.com/nguyenhonggiang2407/YangHomestay) · [Java demo](https://yanghomestay-java-demo.onrender.com/customer/) · [Java source and setup](https://github.com/nguyenhonggiang2407/YangHomestay/tree/deploy/java-portfolio-demo-2026-11-19/java-backend) · [Java/PostgreSQL checks](https://github.com/nguyenhonggiang2407/YangHomestay/actions/runs/44436759513) · [Container checks](https://github.com/nguyenhonggiang2407/YangHomestay/actions/runs/44436693882)
+
+The [Java migration is under review](https://github.com/nguyenhonggiang2407/YangHomestay/pull/3); the default branch still contains the PHP implementation. The Java portfolio demo uses a disposable PostgreSQL database: accounts, favorites, and bookings reset on server restart. Reception is disabled publicly. The retained [PHP/Supabase demo](https://yanghomestay.helioho.st/customer/) runs separately. [Java deployment scope](https://github.com/nguyenhonggiang2407/YangHomestay/blob/deploy/java-portfolio-demo-2026-11-19/docs/java-demo-deployment.md)
 
 ### 2. RunwayStudio
 
@@ -48,7 +52,7 @@ The repository preserves the original DTDD branch history and credits its MIT re
 | **5. [CampusDesk](https://github.com/nguyenhonggiang2407/CampusDesk)** | React, TypeScript, Express, SQLite. Student/staff ticket workflows, private notes and version-based edit conflict checks. | [CI](https://github.com/nguyenhonggiang2407/CampusDesk/actions/workflows/ci.yml) · [Demo](https://giang-campusdesk.onrender.com) |
 | **6. [YangHooks](https://github.com/nguyenhonggiang2407/YangHooks)** | Node.js, SQLite. Local webhook lab with HMAC verification, replay checks, and signing key rotation. | [CI](https://github.com/nguyenhonggiang2407/YangHooks/actions/workflows/ci.yml) · [Source credits](https://github.com/nguyenhonggiang2407/YangHooks/blob/main/NOTICE.md) |
 
-Render demos can take time to start. Use fictional details because temporary H2 and SQLite data can reset. YangRent uses mock payments. The repositories document test coverage and the scope of the demos. [YangRent source and image credits](https://github.com/nguyenhonggiang2407/YangRent/blob/main/docs/source-notice.md) · [YangHomestay image credits](https://github.com/nguyenhonggiang2407/YangHomestay/blob/main/docs/image-sources.md)
+Render demos can take time to start. Use fictional details; demo data can reset after a service restart. YangRent uses mock payments. The repositories document test coverage and the scope of the demos. [YangRent source and image credits](https://github.com/nguyenhonggiang2407/YangRent/blob/main/docs/source-notice.md) · [YangHomestay image credits](https://github.com/nguyenhonggiang2407/YangHomestay/blob/main/docs/image-sources.md)
 
 <details>
 <summary>RunwayStudio storefront screenshot</summary>

@@ -1,6 +1,8 @@
 # More projects and source history
 
-The [profile README](../README.md#featured-projects) starts with YangHomestay, followed by RunwayStudio and YangSlots for Java backend work. This catalog covers other projects, coursework, and source history.
+The [profile README](../README.md#featured-projects) starts with YangHomestay and its Java/Spring Boot booking backend under review, followed by RunwayStudio and YangSlots for Java backend work. This catalog covers other projects, coursework, and source history.
+
+YangHomestay's default branch currently contains PHP/Supabase. Its [Java migration PR](https://github.com/nguyenhonggiang2407/YangHomestay/pull/3) and [Java demo source](https://github.com/nguyenhonggiang2407/YangHomestay/tree/deploy/java-portfolio-demo-2026-11-19/java-backend) are separate review branches. The [Java demo](https://yanghomestay-java-demo.onrender.com/customer/) and [PHP demo](https://yanghomestay.helioho.st/customer/) use separate runtimes and databases. The Java portfolio demo resets on server restart and disables public reception access; see its [deployment scope](https://github.com/nguyenhonggiang2407/YangHomestay/blob/deploy/java-portfolio-demo-2026-11-19/docs/java-demo-deployment.md) and [recorded Java/PostgreSQL CI](https://github.com/nguyenhonggiang2407/YangHomestay/actions/runs/44436759513).
 
 ## Backend companions
 
